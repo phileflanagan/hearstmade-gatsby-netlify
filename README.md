@@ -1,3 +1,5 @@
-#Hearstmade
-##Made by Phil Flanagan
+# Hearstmade
+
+## Made by Phil Flanagan
+
 Gatsby + NetlifyCMS
