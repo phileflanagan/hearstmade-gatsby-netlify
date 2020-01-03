@@ -26,6 +26,27 @@ body
 section 
   background-color: $light-bg
   color: $light-text
+  margin: 0
+  padding: 0
+
+a
+  color: inherit
+
+button
+  margin-top: 0.5rem
+  margin-bottom: 0.5rem
+  display: block
+  cursor: pointer
+  outline: none
+  border: 1px solid $primary
+  color: $primary
+  padding: 0.5rem 1.5rem
+  background-color: transparent
+  border-radius: 0
+  text-transform: uppercase
+  font-family: "Open Sans", sans-serif
+  font-size: 0.75em
+  letter-spacing: 1px
 
 // basic color schemes
 .dark
@@ -34,15 +55,28 @@ section
   button
     background-color: $light-bg
     background-color: $light-text
+    border-color: none
     &:hover
-      background-color: lighten($light-bg, 10%)
+      background-color: darken($light-bg, 10%)
+  
 .light
   background-color: $light-bg
   color: $light-text
+  button
+    background-color: $dark-bg
+    background-color: $dark-text
+    border-color: none
+    &:hover
+      background-color: lighten($light-bg, 10%)
 
 .subtle 
   background-color: $subtle-bg
   color: $subtle-text
+  button
+    border-color: $subtle-text
+    &:hover
+      background-color: $light-bg
+  
 
 .bg-image
   background-size: cover

@@ -3,13 +3,13 @@ const typography = new Typography({
     baseFontSize: '18px',
     baseLineHeight: 1.666,
     headerFontFamily: [
-        'Playfair Display',
+        'Open Sans',
         'Helvetica Neue',
         'Segoe UI',
         'Helvetica',
         'Arial',
         'sans-serif'
     ],
-    bodyFontFamily: ['Open Sans', 'serif']
+    bodyFontFamily: ['Playfair Display', 'serif']
 });
 export default typography;
