@@ -15,7 +15,7 @@ export const CaseStudyTemplate = ({
     featuredpost,
     headline,
     subhead,
-    s1copy,
+    body,
     helmet
 }) => {
     const PostContent = contentComponent || Content;
@@ -35,7 +35,7 @@ export const CaseStudyTemplate = ({
                             featuredpost,
                             headline,
                             subhead,
-                            s1copy,
+                            body,
                             helmet
                         },
                         null,
@@ -101,7 +101,7 @@ export const pageQuery = graphql`
                 featuredpost
                 headline
                 subhead
-                s1copy
+                body
             }
         }
     }
