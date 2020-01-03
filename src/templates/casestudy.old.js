@@ -12,12 +12,6 @@ export const CaseStudyTemplate = ({
     description,
     tags,
     title,
-    featuredpost,
-    featuredimage,
-    headline,
-    subhead,
-    s1copy,
-    s1images,
     helmet
 }) => {
     const PostContent = contentComponent || Content;
@@ -26,38 +20,43 @@ export const CaseStudyTemplate = ({
         <section className="section">
             {helmet || ''}
             <div className="container content">
-                <pre>
-                    {JSON.stringify(
-                        {
-                            content,
-                            contentComponent,
-                            description,
-                            tags,
-                            title,
-                            featuredpost,
-                            featuredimage,
-                            headline,
-                            subhead,
-                            s1copy,
-                            s1images,
-                            helmet
-                        },
-                        null,
-                        2
-                    )}
-                </pre>
+                <div className="columns">
+                    <div className="column is-10 is-offset-1">
+                        <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                            {title}
+                        </h1>
+                        <p>{description}</p>
+                        <PostContent content={content} />
+                        {tags && tags.length ? (
+                            <div style={{ marginTop: `4rem` }}>
+                                <h4>Tags</h4>
+                                <ul className="taglist">
+                                    {tags.map(tag => (
+                                        <li key={tag + `tag`}>
+                                            <Link
+                                                to={`/tags/${kebabCase(tag)}/`}
+                                            >
+                                                {tag}
+                                            </Link>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ) : null}
+                    </div>
+                </div>
             </div>
         </section>
     );
 };
 
-// CaseStudyTemplate.propTypes = {
-//     content: PropTypes.node.isRequired,
-//     contentComponent: PropTypes.func,
-//     description: PropTypes.string,
-//     title: PropTypes.string,
-//     helmet: PropTypes.object
-// };
+CaseStudyTemplate.propTypes = {
+    content: PropTypes.node.isRequired,
+    contentComponent: PropTypes.func,
+    description: PropTypes.string,
+    title: PropTypes.string,
+    helmet: PropTypes.object
+};
 
 const CaseStudy = ({ data }) => {
     const { markdownRemark: post } = data;
@@ -102,12 +101,6 @@ export const pageQuery = graphql`
                 title
                 description
                 tags
-                featuredpost
-                featuredimage {...}
-                headline
-                subhead
-                s1copy
-                s1images
             }
         }
     }
