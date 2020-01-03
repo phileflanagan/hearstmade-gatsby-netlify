@@ -1,0 +1,149 @@
+// Config vars
+$dark-bg: #222;
+$dark-text: #fff;
+$light-bg: #fff;
+$light-text: #555;
+$subtle-bg: #ddd;
+$subtle-text: #1d1d1d;
+
+$primary: $dark-bg
+$primary-invert: $dark-text
+
+// defaults
+html 
+  box-sizing: border-box;
+
+*,
+*:before,
+*:after 
+  box-sizing: inherit;
+
+body
+  margin: 0;
+  background-color: $dark-bg
+  color: $dark-text
+
+section 
+  background-color: $light-bg
+  color: $light-text
+
+// basic color schemes
+.dark
+  background-color: $dark-bg
+  color: $dark-text
+  button
+    background-color: $light-bg
+    background-color: $light-text
+    &:hover
+      background-color: lighten($light-bg, 10%)
+.light
+  background-color: $light-bg
+  color: $light-text
+
+.subtle 
+  background-color: $subtle-bg
+  color: $subtle-text
+
+.bg-image
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center center
+  &.contain 
+    background-size: contain
+  &.center-top
+    background-position: center top
+
+// utils
+.centerX 
+  display: flex
+  position: relative
+  justify-content: center
+
+.centerY
+  display: flex
+  position: relative
+  align-items: center
+
+.centerXY
+  display: flex
+  position: relative
+  align-items: center
+  justify-content: center
+
+.center-self
+  align-self: center
+
+.flex-row
+  flex-direction: row
+  &.reverse
+    flex-direction: row-reverse
+
+.flex-column
+  flex-direction: column
+  &.reverse
+    flex-direction: column-reverse
+
+.flex-first
+  order: -1
+
+.flex-last
+  order: 999
+
+.db
+  display: block
+
+.dib
+  display: inline-block
+
+.df
+  display: flex
+
+.m0
+  margin: 0
+
+.p0
+  padding: 0
+
+.text-center
+  text-align: center
+
+.text-left
+  text-align: left
+
+// generics
+.container
+  max-width: 1080px
+  margin: 0 auto
+
+.bs 
+  box-shadow: 0 0 1rem;
+  
+.bs-lg 
+  box-shadow: 0 0 2rem 1rem
+
+.bs-sm
+  box-shadow: 0 0 1rem 0.5rem
+
+.bs-lg-alt
+  box-shadow: 0 0 2rem -1rem
+
+.bs-sm-alt
+  box-shadow: 0 0 1rem -0.5rem
+
+.arrow
+  border: solid $primary
+  border-width: 0 3px 3px 0
+  display: inline-block
+  padding: 3px
+  .right
+    transform: rotate(-45deg)
+    -webkit-transform: rotate(-45deg)
+  .left
+    transform: rotate(135deg)
+    -webkit-transform: rotate(135deg)
+  .up
+    transform: rotate(-135deg)
+    -webkit-transform: rotate(-135deg)
+  .down
+    transform: rotate(45deg)
+    -webkit-transform: rotate(45deg)

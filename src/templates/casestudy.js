@@ -6,38 +6,27 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 
-export const CaseStudyTemplate = ({
-    content,
-    contentComponent,
-    description,
-    tags,
-    title,
-    featuredpost,
-
-    helmet
-}) => {
-    const PostContent = contentComponent || Content;
-
+export const CaseStudyTemplate = data => {
+    const PostContent = data.contentComponent || data.Content;
+    const image = data.featuredimage;
     return (
         <section className="section">
-            {helmet || ''}
+            <h1>{data.headline}</h1>
+            <h2>{data.subhead}</h2>
+            <div
+                className="full-width-image margin-top-0"
+                style={{
+                    backgroundImage: `url(${
+                        !!image.childImageSharp
+                            ? image.childImageSharp.fluid.src
+                            : image
+                    })`,
+                    backgroundPosition: `top left`,
+                    backgroundAttachment: `fixed`
+                }}
+            ></div>
             <div className="container content">
-                <pre>
-                    {JSON.stringify(
-                        {
-                            content,
-                            contentComponent,
-                            description,
-                            tags,
-                            title,
-                            featuredpost,
-
-                            helmet
-                        },
-                        null,
-                        2
-                    )}
-                </pre>
+                <PostContent content={data.content} />
             </div>
         </section>
     );
@@ -71,6 +60,9 @@ const CaseStudy = ({ data }) => {
                 }
                 tags={post.frontmatter.tags}
                 title={post.frontmatter.title}
+                headline={post.frontmatter.headline}
+                subhead={post.frontmatter.subhead}
+                featuredimage={post.frontmatter.featuredimage}
             />
         </Layout>
     );
@@ -90,11 +82,21 @@ export const pageQuery = graphql`
             id
             html
             frontmatter {
-                date(formatString: "MMMM DD, YYYY")
                 title
-                description
-                tags
+                templateKey
+                date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                description
+                headline
+                subhead
+                tags
+                featuredimage {
+                    childImageSharp {
+                        fluid(maxWidth: 2048, quality: 100) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
             }
         }
     }
