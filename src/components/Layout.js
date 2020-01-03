@@ -6,6 +6,10 @@ import './_global_.sass';
 import useSiteMetadata from './SiteMetadata';
 import { withPrefix } from 'gatsby';
 
+import favicon64 from '../brand/favicon.png';
+import favicon192 from '../brand/logo-192.png';
+import favicon512 from '../brand/logo-512.png';
+
 const TemplateWrapper = ({ children }) => {
     const { title, description } = useSiteMetadata();
     return (
@@ -17,28 +21,23 @@ const TemplateWrapper = ({ children }) => {
 
                 <link
                     rel="apple-touch-icon"
-                    sizes="180x180"
-                    href={`${withPrefix('/')}img/apple-touch-icon.png`}
+                    sizes="512x512"
+                    href={favicon512}
                 />
                 <link
                     rel="icon"
                     type="image/png"
-                    href={`${withPrefix('/')}img/favicon-32x32.png`}
-                    sizes="32x32"
+                    href={favicon192}
+                    sizes="192x192"
                 />
                 <link
                     rel="icon"
                     type="image/png"
-                    href={`${withPrefix('/')}img/favicon-16x16.png`}
-                    sizes="16x16"
+                    href={favicon64}
+                    sizes="64x64"
                 />
 
-                <link
-                    rel="mask-icon"
-                    href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
-                    color="#ff4400"
-                />
-                <meta name="theme-color" content="#fff" />
+                <meta name="theme-color" content="#222" />
 
                 <meta property="og:type" content="business.business" />
                 <meta property="og:title" content={title} />
