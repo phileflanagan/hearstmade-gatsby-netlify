@@ -6,7 +6,7 @@ description: Test Description
 tags:
   - test
   - testing
-featuredpost: false
+featuredpost: true
 featuredimage: /img/flavor_wheel.jpg
 headline: Headline Goes Here
 subhead: Subhead below
