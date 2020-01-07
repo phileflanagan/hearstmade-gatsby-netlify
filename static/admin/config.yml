@@ -53,6 +53,30 @@ collections:
           - { label: 'Headline', name: 'headline', widget: 'string' }
           - { label: 'Subhead', name: 'subhead', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+            label: Sections,
+            name: sections,
+            widget: list,
+            fields:
+                [
+                    {
+                        label: Theme,
+                        name: theme,
+                        widget: select,
+                        options: ["Dark, Light, Gray"]
+                    },
+                    {
+                        label: Image,
+                        name: image,
+                        widget: image,
+                    },
+                    {
+                        label: Text,
+                        name: text,
+                        widget: text,
+                    },
+                ],
+          }
 
     - name: 'pages'
       label: 'Pages'
