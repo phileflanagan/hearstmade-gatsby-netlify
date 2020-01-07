@@ -1,0 +1,23 @@
+// Config vars
+$dark-bg: #222
+$dark-text: #fff
+$light-bg: #fff
+$light-text: #555
+$subtle-bg: #ddd
+$subtle-text: #1d1d1d
+
+$primary: $dark-bg
+$primary-invert: $dark-text
+
+$tablet-width: 768px
+$desktop-width: 1024px
+
+@mixin mobile
+  @media (min-width: 0px) and (max-width: #{$tablet-width - 1px})
+    @content
+@mixin tablet
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px})
+    @content
+@mixin desktop
+  @media (min-width: #{$desktop-width})
+    @content

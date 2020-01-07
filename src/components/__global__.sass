@@ -1,29 +1,20 @@
-// Config vars
-$dark-bg: #222;
-$dark-text: #fff;
-$light-bg: #fff;
-$light-text: #555;
-$subtle-bg: #ddd;
-$subtle-text: #1d1d1d;
-
-$primary: $dark-bg
-$primary-invert: $dark-text
+@import 'config'
 
 // defaults
-html 
-  box-sizing: border-box;
+html
+  box-sizing: border-box
 
 *,
 *:before,
-*:after 
-  box-sizing: inherit;
+*:after
+  box-sizing: inherit
 
 body
-  margin: 0;
+  margin: 0
   background-color: $dark-bg
   color: $dark-text
 
-section 
+section
   background-color: $light-bg
   color: $light-text
   margin: 0
@@ -58,7 +49,7 @@ button
     border-color: none
     &:hover
       background-color: darken($light-bg, 10%)
-  
+
 .light
   background-color: $light-bg
   color: $light-text
@@ -69,26 +60,28 @@ button
     &:hover
       background-color: lighten($light-bg, 10%)
 
-.subtle 
+.subtle
   background-color: $subtle-bg
   color: $subtle-text
   button
     border-color: $subtle-text
     &:hover
       background-color: $light-bg
-  
 
 .bg-image
   background-size: cover
   background-repeat: no-repeat
   background-position: center center
-  &.contain 
+  &.contain
     background-size: contain
   &.center-top
     background-position: center top
 
 // utils
-.centerX 
+.oa
+  overflow: auto
+
+.centerX
   display: flex
   position: relative
   justify-content: center
@@ -138,21 +131,34 @@ button
 .p0
   padding: 0
 
+.vertPadding
+  padding-top: 3rem
+  padding-bottom: 3rem
+.horzPadding
+  padding-left: 3rem
+  padding-right: 3rem
 .text-center
   text-align: center
 
 .text-left
   text-align: left
 
+.fill
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+
 // generics
 .container
-  max-width: 1080px
+  max-width: 1000px
   margin: 0 auto
 
-.bs 
-  box-shadow: 0 0 1rem;
-  
-.bs-lg 
+.bs
+  box-shadow: 0 0 1rem
+
+.bs-lg
   box-shadow: 0 0 2rem 1rem
 
 .bs-sm
@@ -181,3 +187,20 @@ button
   .down
     transform: rotate(45deg)
     -webkit-transform: rotate(45deg)
+.lede__video
+  position: relative
+  padding-bottom: 56.25%
+  height: 0
+  overflow: hidden
+  max-width: 100%
+  width: 100%
+  height: 50vh
+  overflow: hidden
+  .lede__video iframe,
+  .lede__video object,
+  .lede__video embed
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
