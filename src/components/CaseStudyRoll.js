@@ -9,7 +9,7 @@ class CaseStudyRoll extends React.Component {
 	render() {
 		const { data } = this.props;
 		const { edges: posts } = data.allMarkdownRemark;
-
+		console.log(posts);
 		return (
 			<div className="c_casestudyroll dark">
 				{posts &&
@@ -70,7 +70,7 @@ export default () => (
 								featuredpost
 								featuredimage {
 									childImageSharp {
-										fluid(maxWidth: 1024, quality: 100) {
+										fluid(maxWidth: 1000, quality: 100) {
 											...GatsbyImageSharpFluid
 										}
 									}
