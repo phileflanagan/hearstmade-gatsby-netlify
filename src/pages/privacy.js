@@ -114,7 +114,12 @@ const PrivacyPage = () => (
 				information about your web browsing history across unaffiliated domains, unrelated to the delivery of
 				content through the Flash Player or the performance of the Flash Player in delivering such content. You
 				can manage and delete flash cookies by visiting&nbsp;
-				<a className="body-link" href="http://kb2.adobe.com/cps/526/52697ee8.html" target="_blank">
+				<a
+					rel="noreferrer"
+					className="body-link"
+					href="http://kb2.adobe.com/cps/526/52697ee8.html"
+					target="_blank"
+				>
 					http://kb2.adobe.com/cps/526/52697ee8.html
 				</a>
 				.
@@ -185,7 +190,7 @@ const PrivacyPage = () => (
 				.
 			</p>
 			<p className="body-text">
-				<a className="body-link" name="tracking_requests">
+				<a rel="noreferrer" className="body-link" name="tracking_requests">
 					_
 				</a>
 			</p>
@@ -341,13 +346,23 @@ const PrivacyPage = () => (
 				about goods and services and other content of interest to you across the internet and in other
 				media.&nbsp; If you would like more information about this practice and to know your choices about not
 				having this information used in this manner by our third party advertising companies please visit&nbsp;
-				<a className="body-link" href="http://www.networkadvertising.org/optout_nonppii.asp" target="_blank">
+				<a
+					rel="noreferrer"
+					className="body-link"
+					href="http://www.networkadvertising.org/optout_nonppii.asp"
+					target="_blank"
+				>
 					http://www.networkadvertising.org/optout_nonppii.asp
 				</a>
 				. The collection of information via certain ads served to users in Canada may be managed by visiting
 				youradchoices.ca, and via certain ads served to users in Europe may be managed at youronlinechoices.com.
 				You may also visit alc-opt-out.com&nbsp;and&nbsp;
-				<a className="body-link" href="https://portal.solvemedia.com/portal/public/opt-out" target="_blank">
+				<a
+					rel="noreferrer"
+					className="body-link"
+					href="https://portal.solvemedia.com/portal/public/opt-out"
+					target="_blank"
+				>
 					https://portal.solvemedia.com/portal/public/opt-out
 				</a>
 				&nbsp;to find out how our marketing services companies operate.
@@ -363,7 +378,12 @@ const PrivacyPage = () => (
 				own marketing purposes, and they may provide the same to their customers for their customer's marketing
 				purposes.&nbsp; If you would like to know your choices about not having this information used by such
 				companies, please visit: alc-opt-out.com&nbsp;and&nbsp;&nbsp;
-				<a className="body-link" href="https://portal.solvemedia.com/portal/public/opt-out" target="_blank">
+				<a
+					rel="noreferrer"
+					className="body-link"
+					href="https://portal.solvemedia.com/portal/public/opt-out"
+					target="_blank"
+				>
 					https://portal.solvemedia.com/portal/public/opt-out
 				</a>
 				.
@@ -389,7 +409,7 @@ const PrivacyPage = () => (
 			<p className="body-text">
 				<strong>(a) &nbsp;</strong>
 				<strong>
-					<a className="body-link" name="california">
+					<a rel="noreferrer" className="body-link" name="california">
 						California &amp; Canadian Users: Your California Privacy Rights.
 					</a>
 				</strong>
@@ -404,7 +424,7 @@ const PrivacyPage = () => (
 				with such laws.&nbsp; In addition to reviewing Sections 4(d) and 5(d), if you wish to find out about any
 				rights you may have under California Civil Code section 1798.83, you may notify us in writing at Mail
 				Preference Service, P.O. Box 6000, Harlan, Iowa 51593 or contacting us at&nbsp;
-				<a className="body-link" href="mailto:customercare@hearstmags.com" target="_blank">
+				<a rel="noreferrer" className="body-link" href="mailto:customercare@hearstmags.com" target="_blank">
 					customercare@hearstmags.com
 				</a>
 				. In the case of marketing via Video Services, please refer to the customer service contact set forth at
@@ -427,13 +447,13 @@ const PrivacyPage = () => (
 				&nbsp; From time to time we may send you promotional materials on behalf of Hearst and/or third parties.
 				If you want us to stop sending you promotional materials to your email, you may follow the unsubscribe
 				instructions in the email or manage your preferences at&nbsp;
-				<a className="body-link" href="http://preferences.hearstmags.com" target="_blank">
+				<a rel="noreferrer" className="body-link" href="http://preferences.hearstmags.com" target="_blank">
 					preferences.hearstmags.com
 				</a>
 				. If you want us to stop sending you promotional materials to your postal mailing address, you may
 				notify us in writing by sending a notice to Mail Preference Service, P.O. Box 6000, Harlan, Iowa 51593
 				or contacting us at&nbsp;
-				<a className="body-link" href="mailto:customercare@hearstmags.com" target="_blank">
+				<a rel="noreferrer" className="body-link" href="mailto:customercare@hearstmags.com" target="_blank">
 					customercare@hearstmags.com
 				</a>
 				.&nbsp; Certain Covered Sites may include a customer service link at the bottom of such site.&nbsp; If
@@ -446,13 +466,13 @@ const PrivacyPage = () => (
 				market their products or services to you or for other marketing purposes.&nbsp; This may be information
 				we received from you offline and online.&nbsp; If you want us to stop further sharing your email contact
 				information with third parties (if we have your email contact information), you may notify us at&nbsp;
-				<a className="body-link" href="http://preferences.hearstmags.com" target="_blank">
+				<a rel="noreferrer" className="body-link" href="http://preferences.hearstmags.com" target="_blank">
 					preferences.hearstmags.com
 				</a>
 				. If you want us to stop further sharing your postal mailing contact information with third parties (if
 				we have your postal address), you may notify us in writing by sending a notice to Mail Preference
 				Service, P.O. Box 6000, Harlan, Iowa 51593 or contacting us at&nbsp;
-				<a className="body-link" href="mailto:customercare@hearstmags.com" target="_blank">
+				<a rel="noreferrer" className="body-link" href="mailto:customercare@hearstmags.com" target="_blank">
 					customercare@hearstmags.com
 				</a>
 				. If you wish to opt out of having your information shared with marketing services companies, please see
@@ -521,7 +541,7 @@ const PrivacyPage = () => (
 				that site when you were under 18 years old, you may request deletion of those comments by contacting us
 				at&nbsp;
 				<u data-redactor-tag="u" data-verified="redactor">
-					<a className="body-link" href="mailto:webfeedback@seventeen.com" target="_blank">
+					<a rel="noreferrer" className="body-link" href="mailto:webfeedback@seventeen.com" target="_blank">
 						webfeedback@seventeen.com
 					</a>
 				</u>

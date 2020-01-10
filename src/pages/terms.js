@@ -16,7 +16,12 @@ const TermsPage = () => (
 				terms, or rules, which will be posted on the Covered Site in connection with such features. All such
 				additional terms, guidelines, and rules are incorporated by reference into this Agreement. Capitalized
 				terms not otherwise defined in this Agreement have the meaning given to such term in the Hearst{' '}
-				<a className="body-link" href="http://www.doctorozmag.com/privacy-policy" target="_blank">
+				<a
+					rel="noreferrer"
+					className="body-link"
+					href="http://www.doctorozmag.com/privacy-policy"
+					target="_blank"
+				>
 					privacy policy
 				</a>
 				. The privacy policy is hereby incorporated by this reference into this Agreement.
@@ -347,7 +352,7 @@ const TermsPage = () => (
 				sec. 512, our Covered Sites have designated an agent to receive notices of claims of copyright
 				infringement: Copyright Agent, Hearst Communications, Inc., Hearst Magazines Division, 300 West 57th
 				Street – 40th floor, New York, New York, 10019, tel: 212-649-2020;{' '}
-				<a className="body-link" href="mailto:copyright@hearst.com">
+				<a rel="noreferrer" className="body-link" href="mailto:copyright@hearst.com">
 					copyright@hearst.com
 				</a>
 				. If you believe your copyright has been infringed, you may provide us with notice. To be effective, the

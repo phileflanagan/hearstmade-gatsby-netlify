@@ -6,13 +6,13 @@ import './SocialIcons.sass';
 const SocialIcons = ({ size }) => {
 	return (
 		<div className="social">
-			<a href="https://www.linkedin.com/company/hearst-magazines/" target="_blank">
+			<a href="https://www.linkedin.com/company/hearst-magazines/" target="_blank" rel="noreferrer">
 				<img className={`icon ${!!size ? 'icon__' + size : ''}`} src={linkedinIcon} alt="LinkedIn Icon" />
 			</a>
-			<a href="https://vimeo.com/hearstmade" target="_blank">
+			<a href="https://vimeo.com/hearstmade" target="_blank" rel="noreferrer">
 				<img className={`icon ${!!size ? 'icon__' + size : ''}`} src={vimeoIcon} alt="Vimeo Icon" />
 			</a>
-			<a href="https://www.instagram.com/hearst_made/" target="_blank">
+			<a href="https://www.instagram.com/hearst_made/" target="_blank" rel="noreferrer">
 				<img className={`icon ${!!size ? 'icon__' + size : ''}`} src={instaIcon} alt="Instagram Icon" />
 			</a>
 		</div>

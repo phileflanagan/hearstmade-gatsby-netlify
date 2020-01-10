@@ -18,7 +18,7 @@ const Contacts = class extends React.Component {
 						</Link>
 					</figure>
 					<figure className="centerXY flex-column">
-						<a href="http://www.hearst.com/careers" target="_blank">
+						<a href="http://www.hearst.com/careers" target="_blank" rel="noreferrer">
 							<img className="icon icon__large" src={hIcon} />
 							<h6 className="m0">Career Inquiries</h6>
 						</a>
