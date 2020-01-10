@@ -16,7 +16,7 @@ description: >-
 tags:
   - travel
 featuredpost: true
-featuredimage: /img/carlton_layer-9.jpg
+featuredimage: /img/row-1b.jpg
 headline: AIRBNB
 subhead: AIRBNB
 ---
