@@ -13,18 +13,18 @@ const Contacts = class extends React.Component {
 				<div className="container df flex-row centerXY">
 					<figure className="centerXY flex-column">
 						<Link to="/contact">
-							<img className="icon icon__large" src={towerIcon} />
+							<img className="icon icon__large" src={towerIcon} alt="Hearst Tower Icon" />
 							<h6 className="m0">Business Inquiries</h6>
 						</Link>
 					</figure>
 					<figure className="centerXY flex-column">
 						<a href="http://www.hearst.com/careers" target="_blank" rel="noreferrer">
-							<img className="icon icon__large" src={hIcon} />
+							<img className="icon icon__large" src={hIcon} alt="Hearst H Icon" />
 							<h6 className="m0">Career Inquiries</h6>
 						</a>
 					</figure>
 					<figure className="centerXY flex-column">
-						<img className="icon icon__large" src={pressIcon} />
+						<img className="icon icon__large" src={pressIcon} alt="Newspaper Icon" />
 						<h6 className="m0">Press Inquiries</h6>
 					</figure>
 				</div>

@@ -13,6 +13,7 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
 		<div className="lede__video loading-gradient">
 			<div className="vid__parent" style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
 				<iframe
+					title="Video Sizzle"
 					src="https://player.vimeo.com/video/383342485?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1"
 					style={{
 						position: 'absolute',
