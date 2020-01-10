@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import github from '../img/github-icon.svg';
 import logo from '../brand/logos/logo.svg';
+import SocialIcons from './SocialIcons';
 
 import './Navbar.sass';
 
@@ -47,7 +48,7 @@ const Navbar = class extends React.Component {
 	handleScroll = () => {
 		const { prevScrollPos } = this.state;
 		const currentScrollPos = window.pageYOffset;
-		if (currentScrollPos < 450) {
+		if (currentScrollPos < 450 || this.state.active) {
 			this.setState({
 				prevScrollPos: currentScrollPos,
 				visible: true
@@ -97,6 +98,7 @@ const Navbar = class extends React.Component {
 						<Link className="navbar-item" to="/contact">
 							Contact
 						</Link>
+						<SocialIcons size={'medium'} />
 					</div>
 				</div>
 			</nav>
