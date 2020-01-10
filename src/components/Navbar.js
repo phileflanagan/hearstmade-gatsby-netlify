@@ -10,8 +10,18 @@ const Navbar = class extends React.Component {
         super(props);
         this.state = {
             active: false,
-            navBarActiveClass: ''
+            navBarActiveClass: '',
+            visible: true,
+            prevScrollPos: window.pageYOffset
         };
+    }
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+    }
+
+    // Remove the event listener when the component is unmount.
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
     }
 
     toggleHamburger = () => {
@@ -34,10 +44,24 @@ const Navbar = class extends React.Component {
         );
     };
 
+    handleScroll = () => {
+        const { prevScrollPos } = this.state;
+
+        const currentScrollPos = window.pageYOffset;
+        const visible = prevScrollPos > currentScrollPos;
+
+        this.setState({
+            prevScrollPos: currentScrollPos,
+            visible
+        });
+    };
+
     render() {
         return (
             <nav
-                className="navbar"
+                className={`navbar ${
+                    !this.state.visible ? 'navbar__hidden' : ''
+                }`}
                 role="navigation"
                 aria-label="main-navigation"
             >

@@ -1,13 +1,16 @@
 @import 'config'
 
 .navbar
-  position: absolute
+  position: fixed
   top: 0
   background-color: $dark-bg
   color: $dark-text
   z-index: 999
   width: 100%
   height: 56px
+  transition: top 300ms ease-in-out;
+  &__hidden
+    top: -56px;
   .navbar-brand
     padding: 0.7rem
     display: flex
