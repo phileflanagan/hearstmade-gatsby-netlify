@@ -2,21 +2,30 @@
 templateKey: casestudy
 title: Carlton
 date: 2020-01-10T17:17:07.118Z
-description: >-
-  In September 2019, HearstMade, in partnership with outdoor retailer REI,
-  launched UnCommon Path Magazine. The first issue is 84 pages and includes a
-  mix of outdoor storytelling, REI’s high-quality products, and 14 pages of ads.
-  650,000 issues were distributed to targeted REI co-op members, and also sent
-  along with select Hearst titles. The magazine was also sold on newsstands and
-  at all 155 REI stores.
+description: >
+  The goal of our ambitious global program with Ritz Carlton was to elevate the
+  perception of the brand among luxury consumers. In collaboration with Ritz
+  Carlton, Harper’s BAZAAR and Esquire created five short films with
+  up-and-coming directors that were distributed internationally, each shot at a
+  different Ritz Carlton hotel. 
+
+
+  In addition to the longform films, we produced 12 Instagram posts, 11
+  trailers, and 24 pieces of service-focused travel content. 
 tags:
   - travel
 featuredpost: true
 featuredimage: /img/carlton_lede.jpg
-headline: Carlton
+headline: RITZ CARLTON
 subhead: 'null'
 ---
-In September 2019, HearstMade, in partnership with outdoor retailer REI, launched UnCommon Path Magazine. The first issue is 84 pages and includes a mix of outdoor storytelling, REI’s high-quality products, and 14 pages of ads. 650,000 issues were distributed to targeted REI co-op members, and also sent along with select Hearst titles. The magazine was also sold on newsstands and at all 155 REI stores.
+The goal of our ambitious global program with Ritz Carlton was to elevate the perception of the brand among luxury consumers. In collaboration with Ritz Carlton, Harper’s BAZAAR and Esquire created five short films with up-and-coming directors that were distributed internationally, each shot at a different Ritz Carlton hotel.
+
+
+
+In addition to the longform films, we produced 12 Instagram posts, 11 trailers, and 24 pieces of service-focused travel content.
+
+
 
 ![carlton](/img/carlton_-layer-2.jpg "1")
 
