@@ -16,7 +16,7 @@ export const CaseStudyTemplate = (data) => {
 	return (
 		<section className="section case-study">
 			{data.helmet || ''}
-			<div class="splash splash__loading loading-gradient" />
+			<div className="splash splash__loading loading-gradient" />
 			<div
 				className="splash"
 				style={{
@@ -92,7 +92,7 @@ export const pageQuery = graphql`
 				featuredimage {
 					childImageSharp {
 						fluid(maxWidth: 2048, quality: 100) {
-							...GatsbyImageSharpFluid
+							...GatsbyImageSharpFluid_withWebp
 						}
 					}
 				}
