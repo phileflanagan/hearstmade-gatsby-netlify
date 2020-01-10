@@ -23,7 +23,7 @@ export const CaseStudyTemplate = (data) => {
 				}}
 			/>
 			<div className="title dark">{data.headline && <h1 className="m0">{data.headline}</h1>}</div>
-			<div style={{ paddingTop: '6rem' }} className="light">
+			<div className="light paddingTopDesktop">
 				<PostContent content={data.content} className={'light'} />
 			</div>
 		</section>
