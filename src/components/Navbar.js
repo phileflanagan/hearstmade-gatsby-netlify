@@ -12,7 +12,7 @@ const Navbar = class extends React.Component {
             active: false,
             navBarActiveClass: '',
             visible: true,
-            prevScrollPos: window.pageYOffset
+            prevScrollPos: 99999
         };
     }
     componentDidMount() {
