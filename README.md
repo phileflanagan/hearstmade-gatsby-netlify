@@ -4,9 +4,9 @@ Hi! This is the repository for the HearstMade website.
 
 ## Created by
 
-Developers: Phil Flanagan
-Designers: Phil Flanagan, Lawrence Peng, and Tiffany Hong
-Based on the Gatsby v2 Netlify CMS Starter.
+-   Developers: Phil Flanagan
+-   Designers: Phil Flanagan, Lawrence Peng, and Tiffany Hong
+-   Based on the Gatsby v2 Netlify CMS Starter.
 
 ## Purpose
 
