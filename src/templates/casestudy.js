@@ -6,28 +6,30 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 
+import '../components/CaseStudy.sass';
+
 export const CaseStudyTemplate = data => {
     const PostContent = data.contentComponent || data.Content;
     const image = data.featuredimage;
+    console.log({ data });
     return (
-        <section className="section">
-            <h1>{data.headline}</h1>
-            <h2>{data.subhead}</h2>
+        <section className="section case-study">
             <div
-                className="full-width-image margin-top-0"
+                className="splash"
                 style={{
                     backgroundImage: `url(${
                         !!image.childImageSharp
                             ? image.childImageSharp.fluid.src
                             : image
                     })`,
-                    backgroundPosition: `top left`,
-                    backgroundAttachment: `fixed`
+                    backgroundPosition: `center center`
                 }}
             ></div>
-            <div className="container content">
-                <PostContent content={data.content} />
+            <div className="title dark">
+                {data.headline && <h1>{data.headline}</h1>}
+                {data.subhead && <h2>{data.subhead}</h2>}
             </div>
+            <PostContent content={data.content} className={'light'} />
         </section>
     );
 };

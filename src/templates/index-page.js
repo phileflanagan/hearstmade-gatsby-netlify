@@ -19,7 +19,10 @@ export const IndexPageTemplate = ({
 }) => (
     <div>
         <div className="lede__video">
-            <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+            <div
+                class="vid__parent"
+                style={{ padding: '56.25% 0 0 0', position: 'relative' }}
+            >
                 <iframe
                     src="https://player.vimeo.com/video/383342485?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1"
                     style={{

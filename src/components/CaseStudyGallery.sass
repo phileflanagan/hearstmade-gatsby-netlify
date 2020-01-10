@@ -1,16 +1,29 @@
 @import 'config'
 .csg
     background-color: $subtle-bg
-    padding: 1rem;
     display: block
+    @include notdesktop
+        padding: 0
     .card-container
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
         margin: 0 auto
         text-align: center
+        a
+            flex: 1
+            min-width: 400px
     .card
-        box-shadow: 0 1rem 2rem -1rem black
-        margin: 1rem
-        width: 320px
-        display: inline-block
-        figure
-            height: 180px
-            overflow: hidden
+        margin: 0
+        width: 100%
+        position: relative
+        padding-bottom: 56.25%
+        overflow: hidden
+        height: 0
+        aside
+            padding: 1rem
+            position: absolute
+            left: 0
+            bottom: 0
+            width: 100%
+            background-color: transparentize($dark-bg, 0.2 )

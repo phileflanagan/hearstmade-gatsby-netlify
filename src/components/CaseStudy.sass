@@ -1,0 +1,38 @@
+@import 'config'
+.case-study
+    position: relative
+    text-align: center
+    background-color: $dark-bg
+    .splash
+        position: relative
+        padding-bottom: 56.25%
+        height: 0
+        overflow: hidden
+        background-repeat: no-repeat
+        background-size: cover
+        width: 100%
+        max-width: 100%
+        @media (min-width: 1036px)
+            height: 80vh
+            padding-bottom: 0
+    .title
+        display: block
+        position: absolute
+        z-index: 2
+        transform: translate(-50%, -100%)
+        padding: 2rem
+        display: inline-block
+        margin: auto
+        text-align: center
+        @include mobile
+            position: relative
+            transform: none
+            width: 100%
+            padding: 1rem
+            transform: none
+    p   
+        margin: 0 auto
+        text-align: center
+        max-width: 1036px
+    
+

@@ -33,7 +33,9 @@ class CaseStudyGallery extends React.Component {
                                     ) : null}
                                 </figure>
                                 <aside className="centerXY flex-column">
-                                    <h5>{post.frontmatter.title}</h5>
+                                    <h5 className="m0">
+                                        {post.frontmatter.title}
+                                    </h5>
                                 </aside>
                             </div>
                         </Link>

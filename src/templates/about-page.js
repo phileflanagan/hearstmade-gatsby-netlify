@@ -1,63 +1,36 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import Content, { HTMLContent } from '../components/Content';
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+const AboutPage = () => {
+    return (
+        <Layout>
+            <section className="subtle vertPadding">
+                <div className="container">
+                    <h1>About HearstMade</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum commodo maximus maximus. Donec tincidunt est
+                        libero, et imperdiet erat egestas a. Vivamus malesuada
+                        sapien et consequat sodales. Suspendisse dapibus tellus
+                        a ligula accumsan, tristique pharetra metus facilisis.
+                        Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia Curae; Etiam id venenatis eros.
+                        Sed elit dui, mattis porttitor tristique id, varius ut
+                        risus. Proin vitae sollicitudin odio, vel volutpat
+                        lacus. Cras consequat quam eget mauris mattis, sit amet
+                        scelerisque orci finibus. Sed ullamcorper mattis eros
+                        eget volutpat. Interdum et malesuada fames ac ante ipsum
+                        primis in faucibus. Quisque id massa lacus. In hac
+                        habitasse platea dictumst. Etiam hendrerit semper nulla
+                        vitae rutrum.
+                    </p>
+                </div>
+            </section>
+        </Layout>
+    );
+};
 
-  return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
-
-AboutPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
-}
-
-const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data
-
-  return (
-    <Layout>
-      <AboutPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
-      />
-    </Layout>
-  )
-}
-
-AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
-
-export default AboutPage
-
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
-      }
-    }
-  }
-`
+export default AboutPage;
