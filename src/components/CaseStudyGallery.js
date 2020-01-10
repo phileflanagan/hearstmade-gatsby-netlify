@@ -11,7 +11,8 @@ class CaseStudyGallery extends React.Component {
         const { edges: posts } = data.allMarkdownRemark;
 
         return (
-            <div className="card-container">
+            <div className="card-container dark">
+                <style>{`body{background-color:#333}`}</style>
                 {posts &&
                     posts.map(({ node: post }, i) => (
                         <Link to={post.fields.slug}>

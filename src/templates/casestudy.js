@@ -11,7 +11,7 @@ import '../components/CaseStudy.sass';
 export const CaseStudyTemplate = data => {
     const PostContent = data.contentComponent || data.Content;
     const image = data.featuredimage;
-    console.log({ data });
+
     return (
         <section className="section case-study">
             <div class="splash splash__loading loading-gradient" />
@@ -48,25 +48,27 @@ const CaseStudy = ({ data }) => {
 
     return (
         <Layout>
-            <CaseStudyTemplate
-                content={post.html}
-                contentComponent={HTMLContent}
-                description={post.frontmatter.description}
-                helmet={
-                    <Helmet titleTemplate="%s | Case Study">
-                        <title>{`${post.frontmatter.title}`}</title>
-                        <meta
-                            name="description"
-                            content={`${post.frontmatter.description}`}
-                        />
-                    </Helmet>
-                }
-                tags={post.frontmatter.tags}
-                title={post.frontmatter.title}
-                headline={post.frontmatter.headline}
-                subhead={post.frontmatter.subhead}
-                featuredimage={post.frontmatter.featuredimage}
-            />
+            <div className="fill dark">
+                <CaseStudyTemplate
+                    content={post.html}
+                    contentComponent={HTMLContent}
+                    description={post.frontmatter.description}
+                    helmet={
+                        <Helmet titleTemplate="%s | Case Study">
+                            <title>{`${post.frontmatter.title}`}</title>
+                            <meta
+                                name="description"
+                                content={`${post.frontmatter.description}`}
+                            />
+                        </Helmet>
+                    }
+                    tags={post.frontmatter.tags}
+                    title={post.frontmatter.title}
+                    headline={post.frontmatter.headline}
+                    subhead={post.frontmatter.subhead}
+                    featuredimage={post.frontmatter.featuredimage}
+                />
+            </div>
         </Layout>
     );
 };

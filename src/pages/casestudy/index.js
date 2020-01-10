@@ -19,7 +19,8 @@ export default class CaseStudyIndexPage extends React.Component {
                             backgroundColor: '#333',
                             color: 'white',
                             padding: '1rem',
-                            textAlign: 'center'
+                            textAlign: 'center',
+                            marginBottom: '0'
                         }}
                     >
                         Case Studies
