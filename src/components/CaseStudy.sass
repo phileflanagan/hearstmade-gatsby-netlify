@@ -22,7 +22,7 @@
         display: block
         position: absolute
         z-index: 2
-        transform: translate(-50%, -100%)
+        transform: translate(-50%, -50%)
         padding: 2rem
         display: inline-block
         margin: auto
@@ -35,8 +35,12 @@
             transform: none
     p
         margin: 0 auto
-        text-align: center
+        text-align: left
         max-width: 1036px
-        padding: 3rem 0
-        &.full-width
-            padding: 0
+        padding: 0rem 1rem 1rem
+        &.full-width + p:not(.full-width)
+            padding: 3rem 1rem 1rem
+        &:not(.full-width) + .full-width
+            margin-top: 3rem
+        &:not(.full-width):last-of-type
+            padding: 0 1rem 3rem

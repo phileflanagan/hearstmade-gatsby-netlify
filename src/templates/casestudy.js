@@ -22,8 +22,10 @@ export const CaseStudyTemplate = (data) => {
 					backgroundPosition: `center center`
 				}}
 			/>
-			<div className="title dark">{data.headline && <h1>{data.headline}</h1>}</div>
-			<PostContent content={data.content} className={'light'} />
+			<div className="title dark">{data.headline && <h1 className="m0">{data.headline}</h1>}</div>
+			<div style={{ paddingTop: '6rem' }} className="light">
+				<PostContent content={data.content} className={'light'} />
+			</div>
 		</section>
 	);
 };
