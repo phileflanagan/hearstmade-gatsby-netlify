@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-import CaseStudyRoll from '../../components/CaseStudyRoll';
+import CaseStudyGallery from '../../components/CaseStudyGallery';
 
 export default class CaseStudyIndexPage extends React.Component {
     render() {
@@ -17,20 +17,17 @@ export default class CaseStudyIndexPage extends React.Component {
                         className="has-text-weight-bold is-size-1"
                         style={{
                             boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-                            backgroundColor: '#f40',
+                            backgroundColor: '#333',
                             color: 'white',
-                            padding: '1rem'
+                            padding: '1rem',
+                            textAlign: 'center'
                         }}
                     >
                         Case Studies
                     </h1>
                 </div>
-                <section className="section">
-                    <div className="container">
-                        <div className="content">
-                            <CaseStudyRoll />
-                        </div>
-                    </div>
+                <section className="csg">
+                    <CaseStudyGallery />
                 </section>
             </Layout>
         );

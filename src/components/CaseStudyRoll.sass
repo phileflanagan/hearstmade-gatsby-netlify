@@ -1,15 +1,24 @@
+@import 'config'
 .c_casestudyroll
     .row
         overflow: hidden
         text-align: center
-        
+        @include mobile
+            flex-direction: column
         figure, aside 
             flex: 1 1 50%
             margin: 0
             padding: 0
             max-height: 450px
-        
+            @include mobile
+                order: 1
+        figure
+            background-color: $dark-bg
         aside
+            background-color: $dark-bg
+            padding: 1rem
+            @include mobile
+                padding: 3rem 1rem
             h2
                 font-size: 3em
                 margin: 1rem auto

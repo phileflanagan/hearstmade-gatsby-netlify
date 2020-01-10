@@ -39,6 +39,9 @@ button
   font-size: 0.75em
   letter-spacing: 1px
 
+button a,
+a button
+  text-decoration: none
 // basic color schemes
 .dark
   background-color: $dark-bg
@@ -47,6 +50,7 @@ button
     background-color: $light-bg
     background-color: $light-text
     border-color: none
+    color: white
     &:hover
       background-color: darken($light-bg, 10%)
 
@@ -152,7 +156,9 @@ button
 
 // generics
 .container
-  max-width: 1000px
+  padding-left: 1rem
+  padding-right: 1rem
+  max-width: 1032px
   margin: 0 auto
 
 .bs
@@ -194,8 +200,10 @@ button
   overflow: hidden
   max-width: 100%
   width: 100%
-  height: 50vh
   overflow: hidden
+  background: radial-gradient(#444, #222, #666)
+  background-size: 600% 600%
+  animation: moving-gradient 4s ease infinite
   .lede__video iframe,
   .lede__video object,
   .lede__video embed
@@ -204,3 +212,13 @@ button
     left: 0
     right: 0
     bottom: 0
+
+@keyframes moving-gradient 
+  0%
+    background-position: 50% 0%
+  33%
+    background-position: 50% 100%
+  67%
+    background-position: 0 50%
+  100%
+    background-position: 50% 0%

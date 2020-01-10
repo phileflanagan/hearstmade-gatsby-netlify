@@ -1,0 +1,30 @@
+@import 'config'
+.contacts
+    text-align: center
+    .container
+        @include mobile
+            flex-direction: column
+    figure
+        cursor: pointer
+        border: 1px solid $subtle-text
+        display: flex
+        padding: 1rem
+        margin: 0
+        width: 250px
+        height: 250px
+
+        &:nth-child(2)
+            border-left-color: transparent
+            border-right-color: transparent
+            border-top-color: $subtle-text
+            border-bottom-color: $subtle-text
+            @include mobile
+                border-left-color: $subtle-text
+                border-right-color: $subtle-text
+                border-top-color: transparent
+                border-bottom-color: transparent
+        h6
+            text-transform: uppercase
+            letter-spacing: 2px
+            font-size: 0.75rem
+            margin: 0
