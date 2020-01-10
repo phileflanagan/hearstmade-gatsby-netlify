@@ -8,31 +8,26 @@ import Content, { HTMLContent } from '../components/Content';
 
 import '../components/CaseStudy.sass';
 
-export const CaseStudyTemplate = data => {
-    const PostContent = data.contentComponent || data.Content;
-    const image = data.featuredimage;
-
-    return (
-        <section className="section case-study">
-            <div class="splash splash__loading loading-gradient" />
-            <div
-                className="splash"
-                style={{
-                    backgroundImage: `url(${
-                        !!image.childImageSharp
-                            ? image.childImageSharp.fluid.src
-                            : image
-                    })`,
-                    backgroundPosition: `center center`
-                }}
-            ></div>
-            <div className="title dark">
-                {data.headline && <h1>{data.headline}</h1>}
-                {data.subhead && <h2>{data.subhead}</h2>}
-            </div>
-            <PostContent content={data.content} className={'light'} />
-        </section>
-    );
+export const CaseStudyTemplate = (data) => {
+	const PostContent = data.contentComponent || Content;
+	console.log(data);
+	const image = data.featuredimage;
+	const imageSrc = image && image.childImageSharp ? image.childImageSharp.fluid.src : image;
+	console.log('casestudy.js', image, imageSrc);
+	return (
+		<section className="section case-study">
+			<div class="splash splash__loading loading-gradient" />
+			<div
+				className="splash"
+				style={{
+					backgroundImage: `url(${imageSrc})`,
+					backgroundPosition: `center center`
+				}}
+			/>
+			<div className="title dark">{data.headline && <h1>{data.headline}</h1>}</div>
+			<PostContent content={data.content} className={'light'} />
+		</section>
+	);
 };
 
 // CaseStudyTemplate.propTypes = {
@@ -44,65 +39,62 @@ export const CaseStudyTemplate = data => {
 // };
 
 const CaseStudy = ({ data }) => {
-    const { markdownRemark: post } = data;
+	const { markdownRemark: post } = data;
 
-    return (
-        <Layout>
-            <div className="dark">
-                <CaseStudyTemplate
-                    content={post.html}
-                    contentComponent={HTMLContent}
-                    description={post.frontmatter.description}
-                    helmet={
-                        <Helmet titleTemplate="%s | Case Study">
-                            <title>{`${post.frontmatter.title}`}</title>
-                            <meta
-                                name="description"
-                                content={`${post.frontmatter.description}`}
-                            />
-                        </Helmet>
-                    }
-                    tags={post.frontmatter.tags}
-                    title={post.frontmatter.title}
-                    headline={post.frontmatter.headline}
-                    subhead={post.frontmatter.subhead}
-                    featuredimage={post.frontmatter.featuredimage}
-                />
-            </div>
-        </Layout>
-    );
+	return (
+		<Layout>
+			<div className="dark">
+				<CaseStudyTemplate
+					content={post.html}
+					contentComponent={HTMLContent}
+					description={post.frontmatter.description}
+					helmet={
+						<Helmet titleTemplate="%s | Case Study">
+							<title>{`${post.frontmatter.title}`}</title>
+							<meta name="description" content={`${post.frontmatter.description}`} />
+						</Helmet>
+					}
+					tags={post.frontmatter.tags}
+					title={post.frontmatter.title}
+					headline={post.frontmatter.headline}
+					subhead={post.frontmatter.subhead}
+					featuredimage={post.frontmatter.featuredimage}
+				/>
+			</div>
+		</Layout>
+	);
 };
 
 CaseStudy.propTypes = {
-    data: PropTypes.shape({
-        markdownRemark: PropTypes.object
-    })
+	data: PropTypes.shape({
+		markdownRemark: PropTypes.object
+	})
 };
 
 export default CaseStudy;
 
 export const pageQuery = graphql`
-    query CaseStudyByID($id: String!) {
-        markdownRemark(id: { eq: $id }) {
-            id
-            html
-            frontmatter {
-                title
-                templateKey
-                date(formatString: "MMMM DD, YYYY")
-                featuredpost
-                description
-                headline
-                subhead
-                tags
-                featuredimage {
-                    childImageSharp {
-                        fluid(maxWidth: 2048, quality: 100) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-            }
-        }
-    }
+	query CaseStudyByID($id: String!) {
+		markdownRemark(id: { eq: $id }) {
+			id
+			html
+			frontmatter {
+				title
+				templateKey
+				date(formatString: "MMMM DD, YYYY")
+				featuredpost
+				description
+				headline
+				subhead
+				tags
+				featuredimage {
+					childImageSharp {
+						fluid(maxWidth: 2048, quality: 100) {
+							...GatsbyImageSharpFluid
+						}
+					}
+				}
+			}
+		}
+	}
 `;
