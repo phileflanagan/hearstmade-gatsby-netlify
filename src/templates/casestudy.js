@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
+import useSiteMetadata from '../components/SiteMetadata';
 
 import '../components/CaseStudy.sass';
 
@@ -14,6 +15,7 @@ export const CaseStudyTemplate = (data) => {
 	const imageSrc = image && image.childImageSharp ? image.childImageSharp.fluid.src : image;
 	return (
 		<section className="section case-study">
+			{data.helmet || ''}
 			<div class="splash splash__loading loading-gradient" />
 			<div
 				className="splash"
@@ -40,7 +42,7 @@ export const CaseStudyTemplate = (data) => {
 
 const CaseStudy = ({ data }) => {
 	const { markdownRemark: post } = data;
-
+	const { title: metaTitle } = useSiteMetadata();
 	return (
 		<Layout>
 			<div className="dark">
@@ -49,7 +51,7 @@ const CaseStudy = ({ data }) => {
 					contentComponent={HTMLContent}
 					description={post.frontmatter.description}
 					helmet={
-						<Helmet titleTemplate="%s | Case Study">
+						<Helmet titleTemplate={`${metaTitle} | %s | Case Study`}>
 							<title>{`${post.frontmatter.title}`}</title>
 							<meta name="description" content={`${post.frontmatter.description}`} />
 						</Helmet>

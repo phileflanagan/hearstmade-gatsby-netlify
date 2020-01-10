@@ -186,15 +186,15 @@ collections:
                               },
                           ],
                   }
-          - file: 'src/pages/about/index.md'
-            label: 'About'
-            name: 'about'
+          - file: 'src/pages/services/index.md'
+            label: 'Services'
+            name: 'services'
             fields:
                 - {
                       label: 'Template Key',
                       name: 'templateKey',
                       widget: 'hidden',
-                      default: 'about-page',
+                      default: 'services-page',
                   }
                 - { label: 'Title', name: 'title', widget: 'string' }
                 - { label: 'Body', name: 'body', widget: 'markdown' }
