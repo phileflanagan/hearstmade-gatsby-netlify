@@ -10,19 +10,17 @@ import twitter from '../img/social/twitter.svg';
 import vimeo from '../img/social/vimeo.svg';
 
 const Footer = class extends React.Component {
-    render() {
-        return (
-            <footer className="footer df">
-                <div className="footer__left">
-                    &copy; 2020 HearstMade. All Rights Reserved.
-                </div>
-                <div className="footer__right">
-                    <Link to="/">Privacy Policy</Link>
-                    <Link to="/">Terms of Service</Link>
-                </div>
-            </footer>
-        );
-    }
+	render() {
+		return (
+			<footer className="footer df">
+				<div className="footer__left">&copy; 2020 HearstMade. All Rights Reserved.</div>
+				<div className="footer__right">
+					<Link to="/privacy">Privacy Policy</Link>
+					<Link to="/terms">Terms of Use</Link>
+				</div>
+			</footer>
+		);
+	}
 };
 
 export default Footer;
