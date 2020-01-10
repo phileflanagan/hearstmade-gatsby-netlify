@@ -48,7 +48,7 @@ const CaseStudy = ({ data }) => {
 
     return (
         <Layout>
-            <div className="fill dark">
+            <div className="dark">
                 <CaseStudyTemplate
                     content={post.html}
                     contentComponent={HTMLContent}
