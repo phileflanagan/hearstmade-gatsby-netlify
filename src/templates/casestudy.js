@@ -10,10 +10,8 @@ import '../components/CaseStudy.sass';
 
 export const CaseStudyTemplate = (data) => {
 	const PostContent = data.contentComponent || Content;
-	console.log(data);
 	const image = data.featuredimage;
 	const imageSrc = image && image.childImageSharp ? image.childImageSharp.fluid.src : image;
-	console.log('casestudy.js', image, imageSrc);
 	return (
 		<section className="section case-study">
 			<div class="splash splash__loading loading-gradient" />

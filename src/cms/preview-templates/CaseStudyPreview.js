@@ -6,7 +6,6 @@ const CaseStudyPreview = ({ entry, getAsset, widgetFor }) => {
 	const tags = entry.getIn([ 'data', 'tags' ]);
 	const featuredImage = entry.getIn([ 'data', 'featuredimage' ]);
 	const featuredImageAsset = getAsset(featuredImage).value;
-	console.log('CaseStudyPreview', widgetFor('body'));
 	return (
 		<CaseStudyTemplate
 			content={widgetFor('body')}
