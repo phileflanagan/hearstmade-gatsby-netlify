@@ -10,7 +10,7 @@ import '../components/CaseStudy.sass';
 
 export const CaseStudyTemplate = (data) => {
 	const PostContent = data.contentComponent || Content;
-	const image = data.featuredimage;
+	const image = !!data.featuredimage ? data.featuredimage : '';
 	const imageSrc = image && image.childImageSharp ? image.childImageSharp.fluid.src : image;
 	return (
 		<section className="section case-study">
