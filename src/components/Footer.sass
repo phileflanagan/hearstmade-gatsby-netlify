@@ -1,11 +1,17 @@
 @import 'config'
 
 .footer
-    display: table-row
+    background-color: $dark-bg
     justify-content: space-between
     font-size: 0.7em
     padding: 0.5rem
+    flex-direction: row
+    @include mobile
+        flex-direction: column
+        text-align: center
     &__right
         a
             margin-left: 0.5rem
             text-decoration: none
+            @include mobile
+                margin: 0.25rem

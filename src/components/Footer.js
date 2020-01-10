@@ -12,7 +12,7 @@ import vimeo from '../img/social/vimeo.svg';
 const Footer = class extends React.Component {
     render() {
         return (
-            <footer className="footer df flex-row">
+            <footer className="footer df">
                 <div className="footer__left">
                     &copy; 2020 HearstMade. All Rights Reserved.
                 </div>

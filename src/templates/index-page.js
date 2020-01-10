@@ -18,7 +18,7 @@ export const IndexPageTemplate = ({
     intro
 }) => (
     <div>
-        <div className="lede__video">
+        <div className="lede__video loading-gradient">
             <div
                 class="vid__parent"
                 style={{ padding: '56.25% 0 0 0', position: 'relative' }}

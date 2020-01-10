@@ -15,7 +15,7 @@ import favicon512 from '../brand/logo-512.png';
 const TemplateWrapper = ({ children }) => {
     const { title, description } = useSiteMetadata();
     return (
-        <div className="df flex-column">
+        <div style={{ minHeight: '100vh' }} className="df flex-column">
             <Helmet>
                 <html lang="en" />
                 <title>{title}</title>
@@ -51,7 +51,9 @@ const TemplateWrapper = ({ children }) => {
                 />
             </Helmet>
             <Navbar />
-            <div style={{ marginTop: '56px', flex: '1' }}>{children}</div>
+            <div style={{ marginTop: '56px', flex: '1 0 auto' }}>
+                {children}
+            </div>
             <Footer />
         </div>
     );

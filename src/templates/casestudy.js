@@ -14,6 +14,7 @@ export const CaseStudyTemplate = data => {
     console.log({ data });
     return (
         <section className="section case-study">
+            <div class="splash splash__loading loading-gradient" />
             <div
                 className="splash"
                 style={{
