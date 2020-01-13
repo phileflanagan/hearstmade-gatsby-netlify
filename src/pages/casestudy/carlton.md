@@ -15,7 +15,7 @@ description: >
 tags:
   - travel
 featuredpost: true
-featuredimage: /img/carlton_lede2.jpg
+featuredimage: /img/carlton_lede3.jpg
 headline: RITZ CARLTON
 subhead: 'null'
 ---
