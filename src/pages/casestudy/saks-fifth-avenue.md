@@ -7,7 +7,7 @@ description: |
 tags:
   - SAKS FIFTH AVENUE
 featuredpost: true
-featuredimage: /img/saks-lede.jpg
+featuredimage: /img/saks-lede2.jpg
 headline: SAKS FIFTH AVENUE
 subhead: SAKS FIFTH AVENUE
 ---
