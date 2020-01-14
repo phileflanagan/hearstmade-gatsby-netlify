@@ -3,10 +3,11 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
-import Features from '../components/Features';
 import Stats from '../components/Stats';
 import CaseStudyRoll from '../components/CaseStudyRoll';
 import Contacts from '../components/Contacts';
+import About from '../components/About';
+import { VideoLede } from '../components/Lede';
 
 export const IndexPageTemplate = ({
     image,
@@ -18,44 +19,8 @@ export const IndexPageTemplate = ({
     intro
 }) => (
     <div>
-        <div className="lede__video loading-gradient">
-            <div
-                className="vid__parent"
-                style={{ padding: '56.25% 0 0 0', position: 'relative' }}
-            >
-                <iframe
-                    title="Video Sizzle"
-                    src="https://player.vimeo.com/video/383342485?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&dnt=1&"
-                    style={{
-                        position: 'absolute',
-                        top: '0',
-                        left: '0',
-                        width: '100%',
-                        height: '100%'
-                    }}
-                    frameBorder="0"
-                    allow="autoplay; fullscreen"
-                    allowFullScreen
-                />
-            </div>
-        </div>
-        <section className="vertPadding subtle">
-            <div className="container">
-                <h1>Hello, We Are HearstMade:</h1>
-                <p>
-                    A team of editors, writers, designers, photo directors,
-                    talent bookers and video producers who love nothing more
-                    than a well-crafted story. It’s our job to connect our
-                    partners’ needs with Hearst’s hyper-engaged audience of 300
-                    million.
-                </p>
-                <p>
-                    Through a combination of data-driven insight and editorial
-                    instinct we create stories that not only get attention but
-                    drive action. We call this “Content with Purpose.”
-                </p>
-            </div>
-        </section>
+        <VideoLede id={383342485} />
+        <About />
         <CaseStudyRoll />
         <Stats />
         <Contacts />
