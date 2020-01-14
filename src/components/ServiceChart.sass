@@ -1,6 +1,46 @@
+@import 'config'
 .service-chart
     text-align: center
-    p.chart-header
-        font-size: 3rem
+    ul, ol, li 
+        margin: 0
+        list-style: none
+    li
+        margin: 0.5rem
+    .box
+        border: 5px solid $light-text
+        display: flex
+        justify-content: space-around
+        align-items: stretch
         line-height: 1
-        margin: 0 auto 1rem
+        position: relative
+        .subbox
+            flex: 1
+            padding: 1rem
+        &:first-of-type
+            border-bottom: none
+        &:last-of-type
+            border-top: none
+    .boxlist
+        .subbox
+            border-right: 1px solid $light-text
+            &:last-of-type
+                border-right: none
+        @include tablet
+            flex-wrap: wrap
+            .subbox
+                flex: auto
+                width: 50%
+                border-bottom: 1px solid $light-text
+                &:first-of-type
+                    width: 100%
+                &:nth-last-of-type(-n+2)
+                    border-bottom: none
+        @include mobile
+            display: block
+            .subbox
+                border-bottom: 1px solid $light-text
+                &:nth-last-of-type()
+                    border-bottom: none
+                    
+                    
+    
