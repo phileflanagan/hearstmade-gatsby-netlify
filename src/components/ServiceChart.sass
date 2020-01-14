@@ -17,7 +17,7 @@
             font-size: 2rem
             max-width: 100%
     .box
-        border: 5px solid $light-text
+        border: 4px solid $light-text
         display: flex
         justify-content: space-around
         align-items: stretch
@@ -28,11 +28,15 @@
             padding: 1rem
         &:first-of-type
             border-bottom: none
+            border-top-left-radius: 1rem
+            border-top-right-radius: 1rem
         &:last-of-type
             border-top: none
+            border-bottom-left-radius: 1rem
+            border-bottom-right-radius: 1rem
     .boxlist
         .subbox
-            border-right: 1px solid $light-text
+            border-right: 2px solid $light-text
             &:last-of-type
                 border-right: none
         @include tablet
@@ -40,7 +44,7 @@
             .subbox
                 flex: auto
                 width: 50%
-                border-bottom: 1px solid $light-text
+                border-bottom: 2px solid $light-text
                 &:first-of-type
                     width: 100%
                 &:nth-last-of-type(-n+2)
@@ -48,8 +52,9 @@
         @include mobile
             display: block
             .subbox
-                border-bottom: 1px solid $light-text
-                &:nth-last-of-type()
+                border: none
+                border-bottom: 2px solid $light-text
+                &:last-child
                     border-bottom: none
                     
                     

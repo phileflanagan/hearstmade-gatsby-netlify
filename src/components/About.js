@@ -1,10 +1,18 @@
 import React from 'react';
-import { graphql, Link } from 'gatsby';
+import { StaticQuery, graphql, Link } from 'gatsby';
+import PreviewCompatibleImage from './PreviewCompatibleImage';
 
 // import './About.sass';
 
 const About = ({ data }) => {
-    console.log('Homepage Data', data);
+    const { edges: images } = data.allFile;
+    const imageDesktopEntry = images.filter(image =>
+        image.node.childImageSharp.fluid.src.endsWith('-desktop.png')
+    );
+    const imageDesktop = imageDesktopEntry.length
+        ? imageDesktopEntry[0].node
+        : '';
+    console.log(imageDesktop);
     return (
         <section className="vertPadding subtle">
             <div className="container">
@@ -16,26 +24,40 @@ const About = ({ data }) => {
                     partners’ needs with Hearst’s hyper-engaged audience of 300
                     million.
                 </p>
-                <p>
+                <p style={{ marginBottom: '2.2rem' }}>
                     Through a combination of data-driven insight and editorial
                     instinct we create stories that not only get attention but
                     drive action. We call this “Content with Purpose.”
                 </p>
+                <PreviewCompatibleImage
+                    imageStyle={{ margin: 0 }}
+                    imageInfo={{
+                        image: imageDesktop,
+                        alt: `Hearst Magazine Logos`
+                    }}
+                />
             </div>
         </section>
     );
 };
 
-export default About;
-
-export const aboutQuery = graphql`
-    query About {
-        allFile {
-            edges {
-                node {
-                    relativePath
+export default () => (
+    <StaticQuery
+        query={graphql`
+            query About {
+                allFile(filter: { relativeDirectory: { eq: "magazines" } }) {
+                    edges {
+                        node {
+                            childImageSharp {
+                                fluid(maxWidth: 1000, quality: 100) {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
+                        }
+                    }
                 }
             }
-        }
-    }
-`;
+        `}
+        render={data => <About data={data} />}
+    />
+);
