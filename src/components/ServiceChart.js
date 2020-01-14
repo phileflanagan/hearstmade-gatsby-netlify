@@ -7,11 +7,9 @@ const ServiceChart = () => {
     return (
         <section className="light vertPadding">
             <div className="container service-chart">
-                <h1 className="chart-header">
-                    A full service offering that
-                    <br />
-                    delivers what clients want
-                </h1>
+                <p className="chart-header">
+                    A full service offering that delivers what clients want
+                </p>
                 <section class="box">
                     <div className="subbox">
                         <h4 className="m0">Strategy</h4>
