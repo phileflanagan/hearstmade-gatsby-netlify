@@ -18,14 +18,16 @@ const Contacts = class extends React.Component {
 						</Link>
 					</figure>
 					<figure className="centerXY flex-column">
-						<a href="http://www.hearst.com/careers" target="_blank" rel="noreferrer">
+						<a href="https://www.hearst.com/careers" target="_blank" rel="noreferrer">
 							<img className="icon icon__large" src={hIcon} alt="Hearst H Icon" />
 							<h6 className="m0">Career Inquiries</h6>
 						</a>
 					</figure>
 					<figure className="centerXY flex-column">
-						<img className="icon icon__large" src={pressIcon} alt="Newspaper Icon" />
-						<h6 className="m0">Press Inquiries</h6>
+						<a href="https://www.hearst.com/magazines/digital-media" target="_blank" rel="noreferrer">
+							<img className="icon icon__large" src={pressIcon} alt="Newspaper Icon" />
+							<h6 className="m0">Press Inquiries</h6>
+						</a>
 					</figure>
 				</div>
 			</section>
