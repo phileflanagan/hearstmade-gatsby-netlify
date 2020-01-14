@@ -17,6 +17,7 @@
             font-size: 2rem
             max-width: 100%
     .box
+        box-sizing: border-box
         border: 4px solid $light-text
         display: flex
         justify-content: space-around
@@ -24,6 +25,7 @@
         line-height: 1
         position: relative
         .subbox
+            box-sizing: border-box
             flex: 1
             padding: 1rem
         &:first-of-type
@@ -49,6 +51,9 @@
                     width: 100%
                 &:nth-last-of-type(-n+2)
                     border-bottom: none
+                &:nth-of-type(2n + 1)
+                    border-right: none
+                    
         @include mobile
             display: block
             .subbox
