@@ -2,7 +2,7 @@ import React from 'react';
 import { StaticQuery, graphql, Link } from 'gatsby';
 import PreviewCompatibleImage from './PreviewCompatibleImage';
 
-// import './About.sass';
+import './About.sass';
 
 const About = ({ data }) => {
     const { edges: images } = data.allFile;
@@ -12,9 +12,9 @@ const About = ({ data }) => {
     const imageDesktop = imageDesktopEntry.length
         ? imageDesktopEntry[0].node
         : '';
-    console.log(imageDesktop);
+
     return (
-        <section className="vertPadding subtle">
+        <section className="vertPadding subtle" id="about">
             <div className="container">
                 <h1>Hello, We Are HearstMade:</h1>
                 <p>
