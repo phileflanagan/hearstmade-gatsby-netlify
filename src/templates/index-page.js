@@ -7,7 +7,7 @@ import Stats from '../components/Stats';
 import CaseStudyRoll from '../components/CaseStudyRoll';
 import Contacts from '../components/Contacts';
 import About from '../components/About';
-import { VideoLede } from '../components/Lede';
+import VideoLede from '../components/Lede';
 
 export const IndexPageTemplate = ({
     image,
@@ -16,7 +16,7 @@ export const IndexPageTemplate = ({
     subheading,
     mainpitch,
     description,
-    intro
+    intro,
 }) => (
     <div>
         <VideoLede id={383342485} />
@@ -35,8 +35,8 @@ IndexPageTemplate.propTypes = {
     mainpitch: PropTypes.object,
     description: PropTypes.string,
     intro: PropTypes.shape({
-        blurbs: PropTypes.array
-    })
+        blurbs: PropTypes.array,
+    }),
 };
 
 const IndexPage = ({ data }) => {
@@ -60,9 +60,9 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
     data: PropTypes.shape({
         markdownRemark: PropTypes.shape({
-            frontmatter: PropTypes.object
-        })
-    })
+            frontmatter: PropTypes.object,
+        }),
+    }),
 };
 
 export default IndexPage;
