@@ -27,80 +27,80 @@ export const IndexPageTemplate = ({
     </div>
 );
 
-IndexPageTemplate.propTypes = {
-    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    title: PropTypes.string,
-    heading: PropTypes.string,
-    subheading: PropTypes.string,
-    mainpitch: PropTypes.object,
-    description: PropTypes.string,
-    intro: PropTypes.shape({
-        blurbs: PropTypes.array,
-    }),
-};
+// IndexPageTemplate.propTypes = {
+//     image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+//     title: PropTypes.string,
+//     heading: PropTypes.string,
+//     subheading: PropTypes.string,
+//     mainpitch: PropTypes.object,
+//     description: PropTypes.string,
+//     intro: PropTypes.shape({
+//         blurbs: PropTypes.array,
+//     }),
+// };
 
-const IndexPage = ({ data }) => {
-    const { frontmatter } = data.markdownRemark;
+const IndexPage = () => {
+    // const { frontmatter } = data.markdownRemark;
 
     return (
         <Layout>
-            <IndexPageTemplate
-                image={frontmatter.image}
-                title={frontmatter.title}
-                heading={frontmatter.heading}
-                subheading={frontmatter.subheading}
-                mainpitch={frontmatter.mainpitch}
-                description={frontmatter.description}
-                intro={frontmatter.intro}
-            />
+            <IndexPageTemplate />
         </Layout>
     );
 };
-
-IndexPage.propTypes = {
-    data: PropTypes.shape({
-        markdownRemark: PropTypes.shape({
-            frontmatter: PropTypes.object,
-        }),
-    }),
-};
+// <IndexPageTemplate
+// image={frontmatter.image}
+// title={frontmatter.title}
+// heading={frontmatter.heading}
+// subheading={frontmatter.subheading}
+// mainpitch={frontmatter.mainpitch}
+// description={frontmatter.description}
+// intro={frontmatter.intro}
+// />
+// IndexPage.propTypes = {
+//     data: PropTypes.shape({
+//         markdownRemark: PropTypes.shape({
+//             frontmatter: PropTypes.object,
+//         }),
+//     }),
+// };
 
 export default IndexPage;
 
-export const pageQuery = graphql`
-    query IndexPageTemplate {
-        markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-            frontmatter {
-                title
-                image {
-                    childImageSharp {
-                        fluid(maxWidth: 1024, quality: 100) {
-                            ...GatsbyImageSharpFluid_withWebp
-                        }
-                    }
-                }
-                heading
-                subheading
-                mainpitch {
-                    title
-                    description
-                }
-                description
-                intro {
-                    blurbs {
-                        image {
-                            childImageSharp {
-                                fluid(maxWidth: 240, quality: 64) {
-                                    ...GatsbyImageSharpFluid
-                                }
-                            }
-                        }
-                        text
-                    }
-                    heading
-                    description
-                }
-            }
-        }
-    }
-`;
+// export const pageQuery = graphql`
+//     query IndexPageTemplate {
+//         markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+//             frontmatter {
+//                 title
+//                 image {
+//                     childImageSharp {
+//                         fluid(maxWidth: 1024, quality: 100) {
+//                             ...GatsbyImageSharpFluid_withWebp
+//                         }
+//                     }
+//                 }
+//                 heading
+//                 subheading
+//                 mainpitch {
+//                     title
+//                     description
+//                 }
+//                 description
+//                 intro {
+//                     blurbs {
+//                         image {
+//                             childImageSharp {
+//                                 fluid(maxWidth: 240, quality: 64) {
+//                                     ...GatsbyImageSharpFluid
+//                                 }
+//                             }
+//                         }
+//                         text
+//                     }
+//                     heading
+//                     description
+//                 }
+//             }
+//         }
+//     }
+// `;

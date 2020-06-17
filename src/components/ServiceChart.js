@@ -10,7 +10,7 @@ const ServiceChart = () => {
                 <p className="chart-header">
                     A full service offering that delivers what clients want
                 </p>
-                <section class="box">
+                <section className="box">
                     <div className="subbox">
                         <h4 className="m0">Strategy</h4>
                         <ul>
@@ -68,7 +68,7 @@ const ServiceChart = () => {
                         </ul>
                     </div>
                 </section>
-                <section class="box">
+                <section className="box">
                     <div className="subbox">
                         <h4 className="m0">
                             Proprietary Tools &amp; Technology
