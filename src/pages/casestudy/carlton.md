@@ -62,16 +62,12 @@ Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, ad
 
 ![carlton](/img/screen-shot-2020-01-08-at-2.13.25-pm.jpg "3")
 
+```
+
+```
+
 # **N**am libero tempore
 
 Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 
 ![carlton](/img/screen-shot-2020-01-07-at-3.17.52-pm.jpg "4")
-
-![carlton](/img/carlton_layer-6.jpg "5")
-
-![carlton](/img/carlton_layer-7.jpg "6")
-
-![carlton](/img/carlton_layer-8.jpg "7")
-
-![carlton](/img/carlton_layer-9.jpg "8")
