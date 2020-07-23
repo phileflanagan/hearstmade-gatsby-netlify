@@ -20,7 +20,7 @@ featuredimage: /img/row-1b.jpg
 headline: AIRBNB
 subhead: AIRBNB
 ---
-## **The Ask**
+# **The Ask**
 
 In 2017, Hearst partnered with Airbnb to createAirbnb Magazine, fulfilling the brand’s goal of inspiring discerning and curious readers to explore and experience the world while living like a local. The quarterly custom publication was sent to 350,000 host homes in North America and serves as the only branded Airbnb material guests see.
 
