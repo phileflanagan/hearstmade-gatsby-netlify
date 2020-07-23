@@ -40,10 +40,10 @@ The award-winningAirbnb Magazineis distributed to every Airbnb host home in the 
 
 # **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
-![AIRBNB](/img/row3.jpg "2")
+![AIRBNB](/img/cover1.jpg "2")
 
-![AIRBNB](/img/row4.jpg "3")
+![AIRBNB](/img/cover2.jpg "3")
 
-![AIRBNB](/img/row5.jpg "4")
+![AIRBNB](/img/cover3.jpg "4")
 
-![AIRBNB](/img/row6.jpg "5")
+![AIRBNB](/img/cover4.jpg "5")
