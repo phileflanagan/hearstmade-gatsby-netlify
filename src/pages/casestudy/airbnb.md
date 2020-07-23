@@ -24,7 +24,7 @@ subhead: AIRBNB
 
 In 2017, Hearst partnered with Airbnb to createAirbnb Magazine, fulfilling the brand’s goal of inspiring discerning and curious readers to explore and experience the world while living like a local. The quarterly custom publication was sent to 350,000 host homes in North America and serves as the only branded Airbnb material guests see.
 
-![AIRBNB](/img/add-layer-1.jpg "1")
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
 # **The Strategy**
 
@@ -34,11 +34,7 @@ The award-winningAirbnb Magazineis distributed to every Airbnb host home in the 
 
 # **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
-![](/img/row2b.jpg)
-
 # **The Work**
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
 ![AIRBNB](/img/cover1.jpg "2")
 
