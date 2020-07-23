@@ -20,66 +20,30 @@ featuredimage: /img/row-1b.jpg
 headline: AIRBNB
 subhead: AIRBNB
 ---
-In 2017, Hearst and Airbnb partnered to create Airbnb Magazine, with the goal of inspiring discerning and curious readers to explore and experience the world. Since then, the magazine’s frequency has increased to six times per year and the circulation has grown from 350,000 to 1.2 million. Its primary readership is Airbnb’s host and guest community; it’s distributed to every Airbnb host in the United States and is also sold at newsstands and via subscription. Celebrating humanity and belonging, each issue is packed with narrative journalism, authoritative service articles, home features and stunning portfolios contributed by award-winning writers, photographers and illustrators.
+## **The Ask**
+
+In 2017, Hearst partnered with Airbnb to createAirbnb Magazine, fulfilling the brand’s goal of inspiring discerning and curious readers to explore and experience the world while living like a local. The quarterly custom publication was sent to 350,000 host homes in North America and serves as the only branded Airbnb material guests see.
 
 ![AIRBNB](/img/add-layer-1.jpg "1")
 
+# **The Strategy**
+
+Hearst assembled a dedicated team of industry-leading editors and designers to build a one-of-a-kind travel magazine from scratch—one that would connect with today’s digital-minded audiences on paper. Celebrating humanity and belonging, each issue is packed with narrative journalism, authoritative service articles, home features and stunning portfolios contributed by award-winning writers, photographers and illustrators.
+
+The award-winningAirbnb Magazineis distributed to every Airbnb host home in the United States and is also sold at newsstands and via subscription. Since its inception, the magazine’s frequency has increased to six times per year and the circulation has grown from 350,000 to 1.2 million.
+
 # **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-
 
 ![](/img/row2b.jpg)
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+# **The Work**
 
 # **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
 ![AIRBNB](/img/row3.jpg "2")
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
 ![AIRBNB](/img/row4.jpg "3")
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
 ![AIRBNB](/img/row5.jpg "4")
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
 ![AIRBNB](/img/row6.jpg "5")
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
