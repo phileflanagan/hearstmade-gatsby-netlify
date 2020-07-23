@@ -14,7 +14,7 @@ const About = ({ data }) => {
         : '';
 
     return (
-        <section className="vertPadding subtle" id="about">
+        <section className="vertPadding light" id="about">
             <div className="container">
                 <h1>About Us</h1>
                 <p style={{ marginBottom: '2.2rem' }}>

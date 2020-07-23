@@ -4,83 +4,128 @@
   position: fixed
   top: 0
   background-color: $dark-bg
-  color: $dark-text
-  z-index: 999
-  width: 100%
   height: 56px
+  width: 100%
+  display: flex
   transition: top 300ms ease-in-out
-  &__hidden
-    top: -56px
   .navbar-brand
     padding: 0.7rem
     display: flex
-    justify-content: space-between
+    width: 300px
     img
       height: 20px
+      // margin: 0
     .burger
-      cursor: pointer
-      outline: none
-      position: relative
-      width: 32px
-      height: 32px
-      span
-        display: block
-        position: absolute
-        width: 20px
-        height: 2px
-        background-color: $dark-text
-        left: 50%
-        transform: translate(-50%, -50%)
-        transition: all 150ms ease-in-out
-        &:nth-child(1)
-          top: 11px
-        &:nth-child(2)
-          top: 16px
-        &:nth-child(3)
-          top: 21px
-
-      &.is-active
-        span
-          &:nth-child(1)
-            top: 16px
-            transform: translate(-50%, -50%) rotate(-45deg)
-          &:nth-child(2)
-            left: 100%
-            opacity: 0
-          &:nth-child(3)
-            top: 16px
-            transform: translate(-50%, -50%) rotate(45deg)
-
+      display: none
   #navMenu
-    position: fixed
-    z-index: 997
-    top: 100%
-    left: 0
-    right: 0
-    bottom: 0
-    opacity: 0
-    transition: opacity 150ms ease-in-out
-    font-size: 3rem
-    background-color: $dark-bg
-    color: $dark-text
+    position: relative
+    display: block
+    width: 100%
+    flex-direction: row
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    font-size: 0.8rem
+    font-family: 'Open Sans'
     a
       text-decoration: none
-    &.is-active
-      top: 56px
-      opacity: 1
+    .navbar-item
+      padding: 1rem
+      &.active
+        background-color: rgba(255,255,255,0.1)
+    .social
+      display: none
+@include mobile  
+  .navbar
+    position: fixed
+    top: 0
+    background-color: $dark-bg
+    color: $dark-text
+    z-index: 999
+    width: 100%
+    height: 56px
+    transition: top 300ms ease-in-out
+    &__hidden
+      top: -56px
+    .navbar-brand
+      padding: 0.7rem
+      display: flex
+      justify-content: space-between
+      width: 100%
+      img
+        height: 20px
+      .burger
+        display: block
+        cursor: pointer
+        outline: none
+        position: relative
+        width: 32px
+        height: 32px
+        span
+          display: block
+          position: absolute
+          width: 20px
+          height: 2px
+          background-color: $dark-text
+          left: 50%
+          transform: translate(-50%, -50%)
+          transition: all 150ms ease-in-out
+          &:nth-child(1)
+            top: 11px
+          &:nth-child(2)
+            top: 16px
+          &:nth-child(3)
+            top: 21px
 
-    @include tablet
-      font-size: 2.5rem
-    @include mobile
-      font-size: 2rem
+        &.is-active
+          span
+            &:nth-child(1)
+              top: 16px
+              transform: translate(-50%, -50%) rotate(-45deg)
+            &:nth-child(2)
+              left: 100%
+              opacity: 0
+            &:nth-child(3)
+              top: 16px
+              transform: translate(-50%, -50%) rotate(45deg)
 
-  .icon
-    margin-top: 1.5rem
-    @include tablet
-      margin-top: 1rem
-      width: 2.5rem
-      height: 2.5rem
-    @include mobile
-      margin-top: 0
-      width: 2rem
-      height: 2rem
+    #navMenu
+      position: fixed
+      z-index: 997
+      top: 100%
+      left: 0
+      right: 0
+      bottom: 0
+      opacity: 0
+      transition: opacity 150ms ease-in-out
+      font-size: 3rem
+      background-color: $dark-bg
+      color: $dark-text
+      overflow: auto
+      justify-content: center
+      align-items: center
+      text-align: center
+      .social
+        display: block
+      a
+        text-decoration: none
+      &.is-active
+        top: 56px
+        opacity: 1
+      @include tablet
+        font-size: 2.5rem
+      @include mobile
+        font-size: 2rem
+    #navList
+      display: flex;
+      flex-direction: column
+    .icon
+      margin-top: 1.5rem
+      @include tablet
+        margin-top: 1rem
+        width: 2.5rem
+        height: 2.5rem
+      @include mobile
+        margin-top: 0
+        width: 2rem
+        height: 2rem

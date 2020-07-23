@@ -99,20 +99,40 @@ const Navbar = class extends React.Component {
                     id="navMenu"
                     className={`menu ${this.state.navBarActiveClass}`}
                 >
-                    <div className="oa centerXY flex-column fill">
-                        <Link className="navbar-item" to="/">
+                    <div id="navList">
+                        <Link
+                            className="navbar-item"
+                            to="/"
+                            activeClassName="active"
+                        >
                             Home
                         </Link>
-                        <Link className="navbar-item" to="/about">
+                        <Link
+                            className="navbar-item"
+                            to="/about"
+                            activeClassName="active"
+                        >
                             About
                         </Link>
-                        <Link className="navbar-item" to="/services">
+                        <Link
+                            className="navbar-item"
+                            to="/services"
+                            activeClassName="active"
+                        >
                             Services
                         </Link>
-                        <Link className="navbar-item" to="/casestudy">
+                        <Link
+                            className="navbar-item"
+                            to="/casestudy"
+                            activeClassName="active"
+                        >
                             Case Studies
                         </Link>
-                        <Link className="navbar-item" to="/contact">
+                        <Link
+                            className="navbar-item"
+                            to="/contact"
+                            activeClassName="active"
+                        >
                             Contact
                         </Link>
                         <SocialIcons size={'medium'} />
