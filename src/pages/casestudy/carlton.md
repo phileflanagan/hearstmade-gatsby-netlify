@@ -23,26 +23,74 @@ The goal of our ambitious global program with Ritz Carlton was to elevate the pe
 
 In addition to the longform films, we produced 12 Instagram posts, 11 trailers, and 24 pieces of service-focused travel content.
 
-![](/img/group-9.jpg)
+![](/img/vid4.jpg)
 
-![](/img/group-11.jpg)
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
-![](/img/group-10.jpg)
+# **N**am libero tempore
 
-![](/img/group-12.jpg)
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 
-![carlton](/img/carlton_-layer-2.jpg "1")
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
-![carlton](/img/carlton_layer-3.jpg "2")
+![](/img/vid3.jpg)
 
-![carlton](/img/carlton_layer-4.jpg "3")
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
-![carlton](/img/carlton_layer-5.jpg "4")
+# **N**am libero tempore
 
-![carlton](/img/carlton_layer-6.jpg "5")
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 
-![carlton](/img/carlton_layer-7.jpg "6")
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
-![carlton](/img/carlton_layer-8.jpg "7")
+![](/img/vid2.jpg)
 
-![carlton](/img/carlton_layer-9.jpg "8")
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+
+# **N**am libero tempore
+
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+
+![](/img/vid1.jpg)
+
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+
+# **N**am libero tempore
+
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+
+![carlton](/img/web1.jpg "1")
+
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+
+# **N**am libero tempore
+
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+
+![carlton](/img/web2.jpg "2")
+
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+
+# **N**am libero tempore
+
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+
+![carlton](/img/screen-shot-2020-01-08-at-2.13.25-pm.jpg "3")
+
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+
+# **N**am libero tempore
+
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+
+![carlton](/img/screen-shot-2020-01-07-at-3.17.52-pm.jpg "4")
