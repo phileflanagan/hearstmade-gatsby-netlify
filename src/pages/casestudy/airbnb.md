@@ -22,13 +22,13 @@ subhead: AIRBNB
 ---
 # **The Ask**
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+###### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
 In 2017, Hearst partnered with Airbnb to createAirbnb Magazine, fulfilling the brand’s goal of inspiring discerning and curious readers to explore and experience the world while living like a local. The quarterly custom publication was sent to 350,000 host homes in North America and serves as the only branded Airbnb material guests see.
 
 # **The Strategy**
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+## **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
 Hearst assembled a dedicated team of industry-leading editors and designers to build a one-of-a-kind travel magazine from scratch—one that would connect with today’s digital-minded audiences on paper. Celebrating humanity and belonging, each issue is packed with narrative journalism, authoritative service articles, home features and stunning portfolios contributed by award-winning writers, photographers and illustrators.
 
