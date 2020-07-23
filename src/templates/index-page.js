@@ -7,6 +7,8 @@ import Stats from '../components/Stats';
 import CaseStudyRoll from '../components/CaseStudyRoll';
 import Contacts from '../components/Contacts';
 import About from '../components/About';
+import Tagline from '../components/Tagline';
+import TwoPane from '../components/TwoPane';
 import VideoLede from '../components/Lede';
 
 export const IndexPageTemplate = ({
@@ -20,9 +22,9 @@ export const IndexPageTemplate = ({
 }) => (
     <div>
         <VideoLede id={383342485} />
-        <About />
+        <Tagline />
+        <TwoPane />
         <CaseStudyRoll />
-        <Stats />
         <Contacts />
     </div>
 );
