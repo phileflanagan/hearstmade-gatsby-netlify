@@ -9,7 +9,7 @@ description: >-
 tags:
   - Home
 featuredpost: true
-featuredimage: /img/ikeacover.jpg
+featuredimage: /img/ikeacover2.jpg
 headline: IKEA
 subhead: IKEA
 ---
