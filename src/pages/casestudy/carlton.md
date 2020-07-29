@@ -19,78 +19,36 @@ featuredimage: /img/carlton_lede3.jpg
 headline: RITZ CARLTON
 subhead: 'null'
 ---
-The goal of our ambitious global program with Ritz Carlton was to elevate the perception of the brand among luxury consumers. In collaboration with Ritz Carlton, Harper’s BAZAAR and Esquire created five short films with up-and-coming directors that were distributed internationally, each shot at a different Ritz Carlton hotel.
+# **The Ask**
 
-In addition to the longform films, we produced 12 Instagram posts, 11 trailers, and 24 pieces of service-focused travel content.
+Our ambitious global program with Ritz Carlton was to elevate the perception of the brand among luxury consumers, increasing relevancy for today’s culturally immersed, on-the-pulse traveler, and aligning the hospitality brand with rich, heart-racing life experiences.
+
+###### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
+
+# **The Strategy**
+
+In collaboration with Ritz Carlton, Harper’s BAZAAR and Esquire created five short films with up-and-coming directors that were distributed internationally, each shot at a different Ritz Carlton hotel.The Stayseries followed disparate guests—a rebellious pair of friends, an enterprising child, two estranged women, a mysterious couple, strangers in adjacent rooms—as they checked in, and the high-adrenaline possibilities that ensued. In addition to the longform films, we produced 12 Instagram posts, 11 trailers, and 24 pieces of service-focused travel content.
+
+###### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
+
+# **The Work**
 
 ![](/img/vid4.jpg)
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
 ![](/img/vid3.jpg)
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
 ![](/img/vid2.jpg)
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
 ![](/img/vid1.jpg)
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+![carlton](/img/download.png "1")
 
-# **N**am libero tempore
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+![carlton](/img/download-1-.png "2")
 
-![carlton](/img/web1.jpg "1")
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
 
-# **N**am libero tempore
+![carlton](/img/download-2-.png "3")
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-![carlton](/img/web2.jpg "2")
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-![carlton](/img/screen-shot-2020-01-08-at-2.13.25-pm.jpg "3")
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-![carlton](/img/screen-shot-2020-01-07-at-3.17.52-pm.jpg "4")
+![carlton](/img/download-3-.png "4")
