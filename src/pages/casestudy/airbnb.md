@@ -36,12 +36,10 @@ The award-winningAirbnb Magazineis distributed to every Airbnb host home in the 
 
 # **The Work**
 
+![AIRBNB](/img/abb0819_144_nnselects_071720-1.jpg "2")
 
+![AIRBNB](/img/abb1019_144_nnselects_071720-1.jpg "3")
 
-![AIRBNB](/img/cover1.jpg "2")
+![AIRBNB](/img/abb1219_144_nnselects_071720-1.jpg "4")
 
-![AIRBNB](/img/cover2.jpg "3")
-
-![AIRBNB](/img/cover3.jpg "4")
-
-![AIRBNB](/img/cover4.jpg "5")
+![AIRBNB](/img/abb0220_144_nnselects_071720-1.jpg "5")
