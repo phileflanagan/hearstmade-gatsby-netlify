@@ -9,7 +9,7 @@ description: >-
   readership. 
 tags:
   - Skincare
-featuredpost: true
+featuredpost: false
 featuredimage: /img/olay_coverjpg.jpg
 headline: Olay
 subhead: Olay
