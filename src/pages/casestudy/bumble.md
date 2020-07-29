@@ -7,7 +7,7 @@ description: >-
   maker’s relationship with its 50 million existing users. 
 tags:
   - travel
-featuredpost: true
+featuredpost: false
 featuredimage: /img/cover.jpg
 headline: Bumble
 subhead: Bumble
