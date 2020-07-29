@@ -11,48 +11,26 @@ featuredimage: /img/saks-lede2.jpg
 headline: SAKS FIFTH AVENUE
 subhead: SAKS FIFTH AVENUE
 ---
-Saks came to us with the goal of driving purchase consideration among Harper’s BAZAAR and ELLE readers. Throughout 2018 we produced 10 pieces of custom content, 8 Instagram posts, and 29 sponsored articles.
+# **The Ask**
 
-Through a mix of custom-shot longform stories and product-focused articles, we reached consumers throughout every stage of their purchase journey. Examples include this story on BAZAAR about[styling the spring’s three statement pieces](https://www.harpersbazaar.com/fashion/trends/a19607665/the-runway-buy-3-statement-pieces-and-how-to-wear-them/); and this gallery on ELLE that[identified Saks Fifth Avenue's Fashion Director Roopal Patel's 8 must-buys for fall](https://www.elle.com/fashion/g22813263/what-to-buy-fall-2018/).
+Saks came to us with the goal of driving purchase consideration among Harper’s BAZAAR and ELLE readers, and to reaffirm the luxury destination astheretail fashion authority in an ever-crowded landscape.
 
-![](/img/layer-16.jpg)
+###### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+# **The Strategy**
 
-# **N**am libero tempore
+Through the spring and fall fashion seasons, we positioned Saks as the leading trend experts for off-the-moment tastemakers, serving the freshest designers to women where they are now. In features showing how to[style bold evening-wear](https://www.elle.com/fashion/personal-style/a19663585/the-secret-to-wearing-springs-boldest-evening-looks/)with downtown irreverence and adapt[runway pieces for the sidewalk](https://www.harpersbazaar.com/fashion/trends/a19607665/the-runway-buy-3-statement-pieces-and-how-to-wear-them/), we enthusiastically translated top-tier fashion for the “now” generation.
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Throughout 2018 we produced 10 pieces of custom content, 8 Instagram posts, and 29 sponsored articles. Through a mix of custom-shot longform stories and product-focused articles, we reached consumers throughout every stage of their purchase journey, from inspiration and trend research to shopping with intent.
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+###### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
-![](/img/layer-15.jpg "2")
+# **The Work**
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
+![](/img/download-1.44.48-pm.png)
 
-# **N**am libero tempore
+![](/img/download-6-.png "2")
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+![](/img/download-8-.png "3")
 
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-![](/img/group-1.jpg "3")
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-![](/img/group-2.jpg "4")
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-# **N**am libero tempore
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-# **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__**
-
-![]( "5")
+![](/img/download-7-.png "4")
