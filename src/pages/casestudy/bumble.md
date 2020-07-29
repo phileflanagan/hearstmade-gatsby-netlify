@@ -8,7 +8,7 @@ description: >-
 tags:
   - travel
 featuredpost: false
-featuredimage: /img/cover.jpg
+featuredimage: /img/bumblecover.jpg
 headline: Bumble
 subhead: Bumble
 ---
