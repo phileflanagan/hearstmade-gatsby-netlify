@@ -8,7 +8,7 @@ description: >-
   educate readers on the benefits of its styling services. 
 tags:
   - fashion
-featuredpost: true
+featuredpost: false
 featuredimage: /img/stitch-cover.jpg
 headline: Stitch Fix
 subhead: Stitch Fix
