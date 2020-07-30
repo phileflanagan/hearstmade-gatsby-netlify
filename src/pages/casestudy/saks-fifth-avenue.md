@@ -1,15 +1,15 @@
 ---
 templateKey: casestudy
-title: SAKS FIFTH AVENUE
+title: Saks Fifth Avenue
 date: 2020-01-13T18:29:48.766Z
 description: |
   SAKS FIFTH AVENUE (FASHION)
 tags:
-  - SAKS FIFTH AVENUE
+  - fashion
 featuredpost: true
 featuredimage: /img/saks-lede2.jpg
-headline: SAKS FIFTH AVENUE
-subhead: SAKS FIFTH AVENUE
+headline: Saks Fifth Avenue
+subhead: Saks Fifth Avenue
 ---
 # **The Ask**
 
@@ -29,8 +29,8 @@ Throughout 2018 we produced 10 pieces of custom content, 8 Instagram posts, and 
 
 ![](/img/download-1.44.48-pm.png)
 
-![](/img/download-6-.png "2")
+![Saks Fifth Avenue](/img/download-6-.png "2")
 
-![](/img/download-8-.png "3")
+![Saks Fifth Avenue](/img/download-8-.png "3")
 
-![](/img/download-7-.png "4")
+![Saks Fifth Avenue](/img/download-7-.png "4")
