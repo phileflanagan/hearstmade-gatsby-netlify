@@ -28,6 +28,8 @@ The content we produced included one documentary-style video that [detailed how 
 
 # **The Work**
 
+![](/img/black_bar.png "1")
+
 ![Tourism of Ireland](/img/esq-ireland.jpg "2")
 
 ![Tourism of Ireland](/img/elle-ireland.jpg "3")
