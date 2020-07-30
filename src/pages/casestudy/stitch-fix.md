@@ -27,6 +27,8 @@ We created a total of 15 Instagram posts and stories, one video, and two on-site
 
 # **The Work**
 
+![](/img/black_bar.png "1")
+
 ![Stitch fix](/img/background.jpg "2")
 
 ![Stitch fix](/img/layer-2.jpg "3")
