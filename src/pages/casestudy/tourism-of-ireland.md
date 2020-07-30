@@ -32,6 +32,4 @@ The content we produced included one documentary-style video that [detailed how 
 
 ![Tourism of Ireland](/img/elle-ireland.jpg "3")
 
-
-
 ![Tourism of Ireland](/img/download.png "4")
