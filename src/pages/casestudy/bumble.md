@@ -28,18 +28,50 @@ In April 2019, HearstMade launchedBumble Mag, a 150,000-circ publication focusin
 
 ![bumble](/img/bumblemag_biz-1_page_01.jpg "2")
 
+![](/img/white_bar.png)
+
 ![bumble](/img/bumblemag_biz-1_page_05.jpg "3")
+
+
+
+![](/img/white_bar.png)
+
+
 
 ![bumble](/img/bumblemag_biz-1_page_09.jpg "4")
 
+
+
+![](/img/white_bar.png)
+
 ![bumble](/img/bumblemag_biz-1_page_16.jpg "5")
+
+
+
+![](/img/white_bar.png)
 
 ![bumble](/img/bumblemag_biz-1_page_17.jpg "6")
 
+
+
+![](/img/white_bar.png)
+
 ![bumble](/img/bumblemag_biz-1_page_26.jpg "7")
+
+
+
+![](/img/white_bar.png)
 
 ![bumble](/img/bumblemag_biz-1_page_31.jpg "8")
 
+
+
+![](/img/white_bar.png)
+
 ![bumble](/img/bumblemag_biz-1_page_37.jpg "9")
+
+
+
+![](/img/white_bar.png)
 
 ![bumble](/img/bumblemag_biz-1_page_40.jpg "10")
