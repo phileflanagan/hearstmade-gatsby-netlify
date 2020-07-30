@@ -9,7 +9,7 @@ description: >-
 tags:
   - fashion
 featuredpost: false
-featuredimage: /img/stitch-cover.jpg
+featuredimage: /img/stitch-lede2.jpg
 headline: Stitch Fix
 subhead: Stitch Fix
 ---
