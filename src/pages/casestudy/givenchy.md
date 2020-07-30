@@ -27,6 +27,10 @@ As an onsite anchor, we created an immersive, custom-shot longform article on Ha
 
 # **The Work**
 
-![Givenchy](/img/layer-1.jpg "2")
+
+
+![The work](/img/black_bar.png "1")
+
+![Givenchy](/img/givenchy-layer-1.jpg "2")
 
 ![Givenchy](/img/layer-0.jpg "3")
