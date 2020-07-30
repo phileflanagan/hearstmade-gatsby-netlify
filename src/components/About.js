@@ -16,8 +16,8 @@ const About = ({ data }) => {
     return (
         <section className="vertPadding light" id="about">
             <div className="container">
-                <h1>About Us</h1>
-                <p style={{ marginBottom: '2.2rem' }}>
+                <h1 className="text-center f400">About Us</h1>
+                <p>
                     We are a team of passionate creators: editors, writers, art
                     directors, video producers, and talent bookers who love
                     nothing more than a well-crafted story. Whether we’re

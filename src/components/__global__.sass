@@ -10,12 +10,45 @@ html
 *:after
   box-sizing: inherit
 
+h1, h2, h3, h4, h5, h6 
+  font-weight: 600
+  
 body
   margin: 0
   background-color: $subtle-bg
   color: $dark-text
   height: 100%
 
+.hl1 
+  font-size: 1.5rem
+.hl2
+  font-size: 1.3rem
+.hl3
+  font-size: 1rem
+  
+.hl1, .hl2, .hl3
+  display: block
+  font-size: 1.5rem
+  position: relative
+  text-transform: relative
+  padding-top: 0.6em
+  padding-bottom: 0.6em
+  margin-left: auto
+  margin-right: auto
+  &:before,&:after 
+    content: ''
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    width: 200px
+    height: 1px
+    margin: 0 auto
+    text-align: center
+    background-color: black
+  &:before
+    top: 0
+  &:after
+    bottom: 0
 section
   background-color: $light-bg
   color: $light-text
@@ -56,6 +89,7 @@ form
     padding: 0.5rem
   .field
     margin: 0.5rem auto
+
 // basic color schemes
 .dark
   background-color: $dark-bg
@@ -96,6 +130,17 @@ form
     background-position: center top
 
 // utils
+.f100
+  font-weight: 100
+.f300
+  font-weight: 300
+.f400
+  font-weight: 400
+.f700
+  font-weight: 700
+.f900
+  font-weight: 900
+  
 .oa
   overflow: auto
 
@@ -254,6 +299,18 @@ form
     font-family: monospace
     letter-spacing: 0.5rem
     text-align: center
+
+.underlined-header
+  position: relative
+  display: inline-block
+  padding-bottom: 1rem
+
+.underlined-header:after
+  content: ''
+  display: block
+  height: 1px
+  margin-top: 1rem
+  background-color: $dark-bg
 
 .icon
   width: 2rem

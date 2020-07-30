@@ -6,8 +6,8 @@ const TwoPane = ({ data }) => {
     return (
         <section className="botPadding subtle" id="twopane">
             <div className="container">
-                <div class="panel-container">
-                    <div class="panel panel-left">
+                <div className="panel-container">
+                    <div className="panel panel-left">
                         <h3>Branded Content</h3>
                         <p>
                             Our renowned Branded Content programs connect our
@@ -29,7 +29,7 @@ const TwoPane = ({ data }) => {
                             action. Let’s work together to inspire and delight!
                         </p>
                     </div>
-                    <div class="panel panel-right">
+                    <div className="panel panel-right">
                         <h3>Custom Content</h3>
                         <p>
                             As a modern marketer, you’re tasked every day with

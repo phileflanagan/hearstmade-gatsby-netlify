@@ -1,15 +1,20 @@
 import Typography from 'typography';
 const typography = new Typography({
     baseFontSize: '18px',
-    baseLineHeight: 1.666,
+    baseLineHeight: 1.3,
     headerFontFamily: [
-        'Open Sans',
-        'Helvetica Neue',
+        'Work Sans',
         'Segoe UI',
         'Helvetica',
         'Arial',
-        'sans-serif'
+        'sans-serif',
     ],
-    bodyFontFamily: ['Playfair Display', 'serif']
+    bodyFontFamily: [
+        'Work Sans',
+        'Segoe UI',
+        'Helvetica',
+        'Arial',
+        'sans-serif',
+    ],
 });
 export default typography;
