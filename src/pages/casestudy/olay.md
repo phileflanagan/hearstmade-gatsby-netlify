@@ -10,7 +10,7 @@ description: >-
 tags:
   - Skincare
 featuredpost: false
-featuredimage: /img/olay_coverjpg.jpg
+featuredimage: /img/olay-lede2.jpg
 headline: Olay
 subhead: Olay
 ---
