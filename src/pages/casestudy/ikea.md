@@ -27,6 +27,6 @@ Leveraging the authority of Good Housekeeping, we guided shoppers through the en
 
 # **The Work**
 
-![Home](/img/layer-1.jpg)
+![Home](/img/ikea-layer-1.jpg)
 
-![Home](/img/layer-0.jpg)
+![Home](/img/ikea-layer-0.jpg)
