@@ -29,10 +29,18 @@ In September 2019, HearstMade partnered with REI to launchUnCommon Path, a quart
 
 # **The Work**
 
-![](/img/black_bar.png "1")
+![](/img/black_bar.png)
 
 ![Uncommon Path](/img/rei_issue1_nnselects_071720-1.jpg "2")
 
+
+
+![](/img/black_bar.png "1")
+
 ![Uncommon Path](/img/rei_issue2_nnselects_071720-1.jpg "3")
+
+
+
+![](/img/black_bar.png "1")
 
 ![Uncommon Path](/img/rei_issue3_nnselects_071720-1.jpg "4")
