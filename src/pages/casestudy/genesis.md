@@ -31,6 +31,4 @@ Our reporter and a director traveled from Anchorage, Alaska to Marfa, Texas, and
 
 ![Genesis](/img/g-layer-1.jpg "2")
 
-
-
 ![Genesis](/img/g-layer-0.jpg "3")
