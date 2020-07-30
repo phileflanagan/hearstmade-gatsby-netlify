@@ -30,6 +30,10 @@ Our original film, A Night Untethered, won both the Audience Choice and Judgesâ€
 
 # **The Work**
 
+
+
+![](/img/black_bar.png "1")
+
 ![Stella Artois](/img/artois-layer-6.jpg "2")
 
 ![Stella Artois](/img/artois-layer5.jpg "3")
