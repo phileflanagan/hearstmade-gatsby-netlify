@@ -32,4 +32,6 @@ Throughout our seven-month program, we created 10 pieces of on-site custom conte
 
 ![olay](/img/olay2.jpg "3")
 
+![](/img/black_bar.png)
+
 ![olay](/img/insta.jpg "4")
