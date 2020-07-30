@@ -10,7 +10,7 @@ description: >-
 tags:
   - Travel
 featuredpost: true
-featuredimage: /img/ireland-lede.jpg
+featuredimage: /img/ireland-lede3.jpg
 headline: Tourism of Ireland
 subhead: Tourism of Ireland
 ---
