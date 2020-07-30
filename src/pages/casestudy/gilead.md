@@ -27,6 +27,10 @@ Gilead wanted to align with a topic that was deeply important to the pharamacuet
 
 # **The Work**
 
+
+
+![](/img/black_bar.png "1")
+
 ![Gilead](/img/esq_1.jpg "2")
 
 ![Gilead](/img/esq_2.jpg "3")
