@@ -7,20 +7,15 @@ export default class CaseStudyIndexPage extends React.Component {
     render() {
         return (
             <Layout>
-                <div
-                    className="full-width-image-container margin-top-0"
-                    style={{
-                        backgroundImage: `url('/img/blog-index.jpg')`
-                    }}
-                >
+                <div className="full-width-image-container margin-top-0">
                     <h1
                         className="has-text-weight-bold is-size-1"
                         style={{
-                            backgroundColor: '#333',
-                            color: 'white',
+                            backgroundColor: 'white',
+                            color: '#333',
                             padding: '1rem',
                             textAlign: 'center',
-                            marginBottom: '0'
+                            marginBottom: '0',
                         }}
                     >
                         Case Studies

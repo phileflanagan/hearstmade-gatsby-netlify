@@ -18,12 +18,13 @@
             max-width: 100%
     .box
         box-sizing: border-box
-        border: 4px solid $light-text
+        border: 4px solid $dark
         display: flex
         justify-content: space-around
         align-items: stretch
         line-height: 1
         position: relative
+        background-color: white
         .subbox
             box-sizing: border-box
             flex: 1
@@ -38,7 +39,7 @@
             border-bottom-right-radius: 1rem
     .boxlist
         .subbox
-            border-right: 2px solid $light-text
+            border-right: 2px solid $dark
             &:last-of-type
                 border-right: none
         @include tablet
@@ -46,7 +47,7 @@
             .subbox
                 flex: auto
                 width: 50%
-                border-bottom: 2px solid $light-text
+                border-bottom: 2px solid $dark
                 &:first-of-type
                     width: 100%
                 &:nth-last-of-type(-n+2)
@@ -58,7 +59,7 @@
             display: block
             .subbox
                 border: none
-                border-bottom: 2px solid $light-text
+                border-bottom: 2px solid $dark
                 &:last-child
                     border-bottom: none
                     

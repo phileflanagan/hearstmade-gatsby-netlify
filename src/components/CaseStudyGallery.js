@@ -11,7 +11,7 @@ const CaseStudyGallery = ({ data }) => {
     const { edges: posts } = data.allMarkdownRemark;
     const { title: metaTitle } = useSiteMetadata();
     return (
-        <div className="card-container dark">
+        <div className="card-container light">
             <Helmet titleTemplate={`${metaTitle} | %s `}>
                 <title>Case Studies</title>
                 <meta
@@ -19,11 +19,10 @@ const CaseStudyGallery = ({ data }) => {
                     content={`See the work we've done with other clients.`}
                 />
             </Helmet>
-            <style>{`body{background-color:#333}`}</style>
             {posts &&
                 posts.map(({ node: post }, i) => (
                     <Link to={post.fields.slug} key={post.id}>
-                        <div className="card df flex-column dark">
+                        <div className="card df flex-column light">
                             <figure>
                                 {post.frontmatter.featuredimage ? (
                                     <PreviewCompatibleImage

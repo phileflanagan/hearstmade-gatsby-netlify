@@ -15,8 +15,8 @@ h1, h2, h3, h4, h5, h6
   
 body
   margin: 0
-  background-color: $subtle-bg
-  color: $dark-text
+  background-color: $offwhite
+  color: $dark
   height: 100%
 
 .hl1 
@@ -50,8 +50,8 @@ body
   &:after
     bottom: 0
 section
-  background-color: $light-bg
-  color: $light-text
+  background-color: $offwhite
+  color: $dark
   margin: 0
   padding: 0
   height: 100%
@@ -65,13 +65,13 @@ button
   display: block
   cursor: pointer
   outline: none
-  border: 1px solid $primary
-  color: $primary
+  border: 1px solid $dark
+  color: $dark
   padding: 0.5rem 1.5rem
   background-color: transparent
   border-radius: 0
   text-transform: uppercase
-  font-family: "Open Sans", sans-serif
+  font-family: "Work Sans", sans-serif
   font-size: 0.75em
   letter-spacing: 1px
 
@@ -85,40 +85,33 @@ form
   input, textarea
     width: 100%
     outline: none
-    border: 1px solid darken($subtle-bg, 10)
+    border: 1px solid darken($mid, 10)
     padding: 0.5rem
   .field
     margin: 0.5rem auto
 
 // basic color schemes
 .dark
-  background-color: $dark-bg
-  color: $dark-text
+  background-color: $dark
+  color: white
   button
-    background-color: $light-bg
-    background-color: $light-text
+    background-color: white
+    background-color: $dark
     border-color: none
     color: white
     &:hover
-      background-color: darken($light-bg, 10%)
+      background-color: darken($dark, 10%)
 
-.light
-  background-color: $light-bg
-  color: $light-text
+.light, .subtle
+  background-color: $offwhite
+  color: $dark
   button
-    background-color: $dark-bg
-    background-color: $dark-text
+    background-color: $dark
+    background-color: white
     border-color: none
     &:hover
-      background-color: lighten($light-bg, 10%)
+      background-color: lighten($offwhite, 10%)
 
-.subtle
-  background-color: $subtle-bg
-  color: $subtle-text
-  button
-    border-color: $subtle-text
-    &:hover
-      background-color: $light-bg
 
 .bg-image
   background-size: cover
@@ -255,7 +248,7 @@ form
   animation: moving-gradient 4s ease infinite
 
 .arrow
-  border: solid $primary
+  border: solid $dark
   border-width: 0 3px 3px 0
   display: inline-block
   padding: 3px
@@ -310,7 +303,7 @@ form
   display: block
   height: 1px
   margin-top: 1rem
-  background-color: $dark-bg
+  background-color: $dark
 
 .icon
   width: 2rem

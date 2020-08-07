@@ -12,7 +12,7 @@ class CaseStudyRoll extends React.Component {
 
         return (
             <section>
-                <div className="c_casestudyroll dark">
+                <div className="c_casestudyroll light">
                     {posts &&
                         posts.map(({ node: post }, i) => (
                             <Link
@@ -29,7 +29,7 @@ class CaseStudyRoll extends React.Component {
                                                     image:
                                                         post.frontmatter
                                                             .featuredimage,
-                                                    alt: `featured image thumbnail for post ${post.frontmatter.title}`
+                                                    alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                                                 }}
                                             />
                                         ) : null}
@@ -59,9 +59,9 @@ class CaseStudyRoll extends React.Component {
 CaseStudyRoll.propTypes = {
     data: PropTypes.shape({
         allMarkdownRemark: PropTypes.shape({
-            edges: PropTypes.array
-        })
-    })
+            edges: PropTypes.array,
+        }),
+    }),
 };
 
 export default () => (
