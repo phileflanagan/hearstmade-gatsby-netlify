@@ -22,15 +22,13 @@ In response to Stella Artois’ campaign prompt of living in the moment versus c
 
 # **The Strategy**
 
-Through a multi-asset experience, HearstMade invited audiences into the surreal world of BAZAAR ICONS. Leading with a custom narrative film shot at the famed Plaza Hotel, we wove a story of high-fashion adventure and excitement through this video, a complementary long-form article, and an in-magazine custom-content spread. Each iteration of the content featured highly produced imagery captured at the Plaza, starring a cast of beguiling influencers, that inspired viewers to disconnect from technology and raise a chalice (or bottle) of Stella Artois.
+Through a multi-asset experience, HearstMade invited audiences into the surreal world of BAZAAR ICONS. Leading with a custom narrative film shot at the famed Plaza Hotel, we wove a story of high-fashion adventure and excitement through this video, a complementary long-form article, and an in-magazine branded-content spread. Each iteration of the content featured highly produced imagery captured at the Plaza—starring a cast of beguiling influencers—that inspired viewers to disconnect from technology and raise a chalice (or bottle) of Stella Artois.
 
 Our original film, A Night Untethered, won both the Audience Choice and Judges’ Choice Webby Awards in the Fashion & Lifestyle category in 2019.
 
 ###### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
 # **The Work**
-
-
 
 ![](/img/black_bar.png "1")
 
