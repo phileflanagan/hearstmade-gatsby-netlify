@@ -1,6 +1,6 @@
 ---
 templateKey: casestudy
-title: Carlton
+title: Ritz-Carlton
 date: 2020-01-10T17:17:07.118Z
 description: >
   The goal of our ambitious global program with Ritz Carlton was to elevate the
@@ -43,19 +43,13 @@ In collaboration with Ritz Carlton, Harper’s BAZAAR and Esquire created five s
 
 ![carlton](/img/download.png "1")
 
-
-
 ![](/img/black_bar.png "1")
 
 ![carlton](/img/download-1-.png "2")
 
-
-
 ![](/img/black_bar.png "1")
 
 ![carlton](/img/download-2-.png "3")
-
-
 
 ![](/img/black_bar.png "1")
 
