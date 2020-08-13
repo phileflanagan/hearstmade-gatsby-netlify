@@ -21,7 +21,7 @@ Stitch Fix partnered with Hearst to capture content surrounding its 2019 red-car
 
 # **The Strategy**
 
-We created a total of 15 Instagram posts and stories, one video, and two on-site articles based around Stitch Fix’s Red Carpet Runway. Additionally, we produced 3 videos and 3 articles where Esquire, Cosmo, and ELLE editors tried and reviewed the Stitch Fix service.
+We created a total of 15 Instagram posts and stories, one video, and two on-site articles based around Stitch Fix’s Red Carpet Runway. Additionally, we produced three videos and three articles where Esquire, Cosmo, and ELLE editors tried and reviewed the Stitch Fix service.
 
 ###### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
