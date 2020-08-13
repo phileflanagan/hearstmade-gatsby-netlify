@@ -20,7 +20,7 @@ Introduce the Bumble brand to new customers and also extend the dating-app maker
 
 # **The Strategy**
 
-In April 2019, HearstMade launchedBumble Mag, a 150,000-circ publication focusing on real talk from real women who adore the brand and feel empowered by its positive, female-first messaging. In order to introduce Bumble’s fans to the company’s services beyond dating, the 100-page magazine devoted buckets of content to key areas of growth—friendship and careers, all told through the same bold voice the brand embodies. The magazine was distributed through Bumble’s 3000+ brand ambassadors across the country.
+In April 2019, HearstMade launched Bumble Mag, a 150,000-circ publication focusing on real talk from real women who adore the brand and feel empowered by its positive, female-first messaging. In order to introduce Bumble’s fans to the company’s services beyond dating, the 100-page magazine devoted buckets of content to key areas of growth—friendship and careers, all told through the same bold voice the brand embodies. The magazine was distributed through Bumble’s 3000+ brand ambassadors across the country.
 
 ###### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
@@ -32,45 +32,29 @@ In April 2019, HearstMade launchedBumble Mag, a 150,000-circ publication focusin
 
 ![bumble](/img/bumblemag_biz-1_page_05.jpg "3")
 
-
-
 ![](/img/white_bar.png)
 
-
-
 ![bumble](/img/bumblemag_biz-1_page_09.jpg "4")
-
-
 
 ![](/img/white_bar.png)
 
 ![bumble](/img/bumblemag_biz-1_page_16.jpg "5")
 
-
-
 ![](/img/white_bar.png)
 
 ![bumble](/img/bumblemag_biz-1_page_17.jpg "6")
-
-
 
 ![](/img/white_bar.png)
 
 ![bumble](/img/bumblemag_biz-1_page_26.jpg "7")
 
-
-
 ![](/img/white_bar.png)
 
 ![bumble](/img/bumblemag_biz-1_page_31.jpg "8")
 
-
-
 ![](/img/white_bar.png)
 
 ![bumble](/img/bumblemag_biz-1_page_37.jpg "9")
-
-
 
 ![](/img/white_bar.png)
 
