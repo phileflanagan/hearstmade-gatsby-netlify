@@ -16,7 +16,7 @@ tags:
   - travel
 featuredpost: true
 featuredimage: /img/carlton_lede3.jpg
-headline: RITZ CARLTON
+headline: RITZ-CARLTON
 subhead: 'null'
 ---
 # **The Ask**
@@ -27,7 +27,7 @@ Our ambitious global program with Ritz Carlton was to elevate the perception of 
 
 # **The Strategy**
 
-In collaboration with Ritz Carlton, Harper’s BAZAAR and Esquire created five short films with up-and-coming directors that were distributed internationally, each shot at a different Ritz Carlton hotel.The Stayseries followed disparate guests—a rebellious pair of friends, an enterprising child, two estranged women, a mysterious couple, strangers in adjacent rooms—as they checked in, and the high-adrenaline possibilities that ensued. In addition to the longform films, we produced 12 Instagram posts, 11 trailers, and 24 pieces of service-focused travel content.
+In collaboration with Ritz Carlton, Harper’s BAZAAR and Esquire created five short films with up-and-coming directors that were distributed internationally, each shot at a different Ritz Carlton hotel.The Stay series followed disparate guests—a rebellious pair of friends, an enterprising child, two estranged women, a mysterious couple, strangers in adjacent rooms—as they checked in, and the high-adrenaline sequences that ensued. In addition to the long-form films, we produced 12 Instagram posts, 11 trailers, and 24 pieces of service-focused travel content.
 
 ###### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
