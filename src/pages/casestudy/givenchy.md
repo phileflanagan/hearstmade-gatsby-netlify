@@ -21,7 +21,7 @@ The focus of our Givenchy Beauty campaign was to create a collection of cohesive
 
 # **The Strategy**
 
-As an onsite anchor, we created an immersive, custom-shot longform article on Harper’s BAZAAR with an equally rich full-length video embedded. We then spun the captured footage into a series of6 scroll-stopping video assets promoted socially across BAZAAR, ELLE, and Marie Claire and driving back to Givenchy’s product landing page. We later “refreshed” the original videos into a 3-part series that garnered added relevancy during the holiday season.
+As an onsite anchor, we created an immersive, custom-shot longform article on Harper’s BAZAAR. Within that story we embedded an equally rich full-length video. We then spun that captured footage into a series of six scroll-stopping video assets promoted socially across BAZAAR, ELLE, and Marie Claire, driving back to Givenchy’s product landing page. We later “refreshed” the original videos into a three-part series that garnered added relevancy during the holiday season.
 
 ###### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
