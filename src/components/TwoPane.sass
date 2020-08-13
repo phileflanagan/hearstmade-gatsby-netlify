@@ -6,20 +6,39 @@
         display: block
 
 .panel
-    padding: 1rem
     background-color: #fff
-    margin: 1rem
-    box-shadow: 0 0  0.5rem transparentize($dark, 0.9)
+    padding: 2rem
     @include notdesktop
-        padding: 1rem
-        margin: 1rem 0
+        padding: 0
     h3
+        font-weight: 700
         text-transform: uppercase
         font-size: 1.1rem
         margin-bottom: 0.8rem
         margin-top: 1rem
 
+.panel-left
+    border-right: 1px solid $dark
+    @include notdesktop
+        border-right: none
+        border-bottom: 1px solid $dark
+        padding-bottom: 1rem
+    p
+        margin-left: -1rem
+        @include notdesktop
+            margin-left: 0
 
+    h3
+        margin-left: -1rem
+        @include notdesktop
+            margin-left: 0
+
+.panel-right
+    border-left: 1px solid $dark
+    @include notdesktop
+        padding-top: 1rem
+        border-left: none
+        border-top: 1px solid $dark
 // .panel-left
 //     border-top: 2px solid $subtle-text
 //     border-right: 1px solid $subtle-text

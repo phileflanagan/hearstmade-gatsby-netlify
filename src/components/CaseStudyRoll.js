@@ -12,6 +12,7 @@ class CaseStudyRoll extends React.Component {
 
         return (
             <section>
+                <div className="horzDivider subtle"></div>
                 <div className="c_casestudyroll light">
                     {posts &&
                         posts.map(({ node: post }, i) => (

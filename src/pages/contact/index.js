@@ -53,7 +53,7 @@ export default class Index extends React.Component {
                     <div className="container">
                         <form
                             id="contact-form"
-                            className="panel"
+                            className=""
                             name="contact"
                             method="post"
                             action="/contact/thanks/"

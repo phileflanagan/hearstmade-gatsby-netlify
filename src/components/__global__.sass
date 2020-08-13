@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6
   
 body
   margin: 0
-  background-color: $offwhite
+  background-color: white
   color: $dark
   height: 100%
 
@@ -102,8 +102,8 @@ form
     &:hover
       background-color: darken($dark, 10%)
 
-.light, .subtle
-  background-color: $offwhite
+.light
+  background-color: white
   color: $dark
   button
     background-color: $dark
@@ -112,6 +112,15 @@ form
     &:hover
       background-color: lighten($offwhite, 10%)
 
+.subtle
+  background-color: $offwhite
+  color: $dark
+  button
+    background-color: $dark
+    background-color: white
+    border-color: none
+    &:hover
+      background-color: lighten($offwhite, 10%)
 
 .bg-image
   background-size: cover
@@ -226,6 +235,19 @@ form
   padding-right: 1rem
   max-width: 1032px
   margin: 0 auto
+
+.horzDivider
+  position: relative
+  display: block
+  height: 1rem
+  width: 200px
+
+
+.vertDivider
+  position: relative
+  display: block
+  width: 1rem
+
 
 .bs
   box-shadow: 0 0 1rem

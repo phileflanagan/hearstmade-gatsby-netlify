@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 
 export default () => (
     <Layout>
-        <section className="subtle vertPadding">
+        <section className="light vertPadding">
             <div className="container">
                 <div
                     className="panel text-center"

@@ -4,13 +4,13 @@ import './TwoPane.sass';
 
 const TwoPane = ({ data }) => {
     return (
-        <section className="botPadding subtle" id="twopane">
+        <section className="botPadding light" id="twopane">
             <div className="container">
                 <div className="panel-container">
                     <div className="panel panel-left">
                         <h3>Branded Content</h3>
                         <p>
-                            Our renowned Branded Content programs connect our
+                            Our renowned branded content programs connect our
                             partners with Hearst’s hyper-engaged audiences by
                             leveraging the appeal and trust of Hearst Magazines’
                             brands on behalf of our clients. Our editorial

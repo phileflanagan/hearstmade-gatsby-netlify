@@ -14,35 +14,42 @@ const About = ({ data }) => {
         : '';
 
     return (
-        <section className="vertPadding light" id="about">
-            <div className="container">
-                <div className="panel">
-                    <h1 className="text-center f400">About Us</h1>
-                    <p>
-                        We are a team of passionate creators: editors, writers,
-                        art directors, video producers, and talent bookers who
-                        love nothing more than a well-crafted story. Whether
-                        we’re creating branded content programs to connect our
-                        partners with Hearst’s hyper-engaged audiences or
-                        producing custom content programs for our partners to
-                        use in their own environments, we always employ a
-                        combination of data-driven insight and editorial
-                        instinct. Being part of Hearst means our data signals
-                        span industries and passion points and our editors are
-                        in constant conversation with audiences of all kinds.
-                        The result: stories that not only get attention but
-                        drive action. We call this “Content with Purpose.”
-                    </p>
+        <>
+            <section className="vertPadding light" id="about">
+                <div className="container">
+                    <div className="about-blurb">
+                        <h1 className="f400">About Us</h1>
+                        <p>
+                            We are a team of passionate creators: editors,
+                            writers, art directors, video producers, and talent
+                            bookers who love nothing more than a well-crafted
+                            story. Whether we’re creating branded content
+                            programs to connect our partners with Hearst’s
+                            hyper-engaged audiences or producing custom content
+                            programs for our partners to use in their own
+                            environments, we always employ a combination of
+                            data-driven insight and editorial instinct. Being
+                            part of Hearst means our data signals span
+                            industries and passion points and our editors are in
+                            constant conversation with audiences of all kinds.
+                            The result: stories that not only get attention but
+                            drive action. We call this “Content with Purpose.”
+                        </p>
+                    </div>
                 </div>
-                <PreviewCompatibleImage
-                    imageStyle={{ margin: 0 }}
-                    imageInfo={{
-                        image: imageDesktop,
-                        alt: `Hearst Magazine Logos`,
-                    }}
-                />
-            </div>
-        </section>
+            </section>
+            <section className="subtle vertPadding">
+                <div className="container">
+                    <PreviewCompatibleImage
+                        imageStyle={{ margin: 0 }}
+                        imageInfo={{
+                            image: imageDesktop,
+                            alt: `Hearst Magazine Logos`,
+                        }}
+                    />
+                </div>
+            </section>
+        </>
     );
 };
 
